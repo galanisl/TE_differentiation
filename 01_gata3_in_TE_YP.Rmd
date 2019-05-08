@@ -1,0 +1,159 @@
+---
+title: "Gene co-expression partners of GATA3 in human TE"
+author: "Gregorio Alanis-Lobato"
+output:
+  html_document:
+    df_print: paged
+    fig_caption: yes
+---
+
+```{r setup, include=FALSE, message=FALSE}
+library(dplyr)
+library(ggrepel)
+library(cowplot)
+library(SingleCellExperiment)
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Intro
+
+In this [R Markdown](http://rmarkdown.rstudio.com) Notebook we search for 
+trophectoderm (TE) cells with high expression of the gene **GATA3** in the 
+following scRNA-seq dataset:
+
+* Blakeley, P. *et al.* (2015) *Development* 142(20):3613-3613.
+
+Then, we identify other genes that are also highly expressed in these cells and
+look at their expression at the Morula stage using scRNA-seq data from:
+
+* Yan, L. *et al.* (2013) *Nature Structural & Molecular Biology* 20(9):1131-1139.
+* Petropoulos, S. *et al.* (2016) *Cell* 165(4):1012-1026.
+
+## Expression of TE markers in single cells
+
+Before starting with the actual analysis, we look at the expression of TE marker
+genes in the three cell lineages of the human blastocyst:
+
+```{r gata, echo = FALSE, fig.cap = "**Figure 1.** Expression of genes of interest in the three lineages of the human blastocyst."}
+load("data/SCE_blk.RData")
+
+# Genes of interest 
+genes <- c("CDX2", "YAP1", "GATA3")
+
+scater::plotExpression(bl_sce, features = genes, x = "sample_alias", 
+                       colour_by = "sample_alias", xlab = "", theme_size = 12,
+                       show_median = TRUE, add_legend = FALSE)
+
+```
+
+Based on the Figure above, we define TE cells with high expression of GATA3 as
+those in which the gene is expressed above the median:
+
+```{r gata_hi, echo = FALSE, fig.cap = "**Figure 2.** Expression of GATA3 in the three lineages of the human blastocyst. Cells with high levels of GATA3 are highlighted."}
+
+bl_sce$gata_hi <- assays(bl_sce)$logcounts["GATA3", ] > 
+  median(assays(bl_sce)$logcounts["GATA3", bl_sce$sample_alias == "trophectoderm"])
+
+scater::plotExpression(bl_sce, features = "GATA3", x = "sample_alias", 
+                       colour_by = "gata_hi", xlab = "", theme_size = 12,
+                       show_median = TRUE, add_legend = FALSE)
+```
+
+## Highly-expressed genes in TE cells with high GATA3 levels
+
+For the identification of highly-expressed genes in TE cells that were defined
+to have high levels of GATA3, we use package `MGFR`. This tool detects genes whose
+expression is high in all replicates of a cell type of interest. These genes are
+given a score that indicates a strong association with the cell type the lower
+it is.
+
+```{r}
+bl <- assays(bl_sce)$logcounts[, bl_sce$gata_hi | bl_sce$sample_alias != "trophectoderm"]
+colnames(bl) <- bl_sce$sample_alias[bl_sce$gata_hi | bl_sce$sample_alias != "trophectoderm"]
+
+markers <- MGFR::getMarkerGenes.rnaseq(bl, annotate = FALSE)
+```
+
+The following table shows the identified genes and their `MGFR` score:
+
+```{r echo=FALSE}
+marker_details <- strsplit(markers$trophectoderm_markers, ":")
+gata3_partners <- tibble(gene = trimws(sapply(marker_details, `[`, 1)),
+                         `MGFR score` = as.numeric(sapply(marker_details, `[`, 2))) %>% 
+  arrange(gene)
+
+gata3_partners
+```
+
+The following Figure shows the expression of the top 6 GATA3 co-expression 
+partners in the TE (lowest `MGFR` score), compared to their expression in the 
+other two blastocyst lineages.
+
+```{r markers, echo = FALSE, fig.cap = "**Figure 3.** Expression of the top 6 GATA3 co-expression partners in the TE vs their expression in the epiblast and primitive endoderm."}
+
+gata3_partners <- gata3_partners %>%
+  arrange(`MGFR score`)
+
+scater::plotExpression(bl_sce, features = gata3_partners$gene[1:6], x = "sample_alias", 
+                       colour_by = "sample_alias", xlab = "", theme_size = 12,
+                       show_median = TRUE, add_legend = FALSE)
+```
+
+
+## Expression of GATA3 co-expression partners in the Morula
+
+The following Figure shows the expression of the top-6 genes from Figure 3 but at 
+the Morula and Late Blastocyst stages. It also shows GATA3 as a reference.
+
+```{r moru, echo = FALSE, fig.cap = "**Figure 4.** Expression of the top 6 GATA3 co-expression partners in the TE at the Morula and Late Blastocyst stages. GATA3 is shown as a reference."}
+
+load("data/SCE_yan_pet.RData")
+
+yp_mor <- yp_sce[, yp_sce$cell_alias %in% c("Morula", "Late blastocyst")]
+
+scater::plotExpression(yp_mor, features = c(gata3_partners$gene[1:6], "GATA3"), 
+                       x = "cell_alias", colour_by = "cell_alias", xlab = "", 
+                       theme_size = 12, show_median = TRUE, add_legend = FALSE)
+```
+
+The Figure below summarises the results of this analysis by comparing the average
+expression of the genes that are highly expressed when GATA3 is also highly 
+expressed in the TE and their average expression in the Morula. Note that not
+all the genes detected in Blakeley's dataset are present in the Yan+Petropoulos 
+expression matrix. As a result, there are less points in the plot than rows in 
+the above table. Genes with mean log expressions >= 5 in Morula and >= 7.5 in TE 
+have been labelled in the figure.
+
+```{r summ, echo = FALSE, fig.cap = "**Figure 5.** Mean expression of GATA3 co-expression partners in the TE vs their average expression at the Morula stage. Each point is a gene."}
+
+common <- gata3_partners$gene[gata3_partners$gene %in% rownames(yp_sce)]
+
+comp <- tibble(gene = common, 
+               ave_te = rowMeans(logcounts(bl_sce)[common, bl_sce$sample_alias == "trophectoderm"]),
+               ave_mor = rowMeans(logcounts(yp_sce)[common, yp_sce$cell_alias == "Morula"])) %>% 
+  mutate(lbl = ifelse(ave_te >= 7.5 & ave_mor >= 5, gene, ""))
+
+ggplot(comp, aes(ave_te, ave_mor, label = lbl)) + geom_point() +
+  geom_text_repel() +
+  labs(x = "Mean log expression in TE", y = "Mean log expression in Morula") + 
+  theme_bw()
+
+```
+
+We use average log expressions in the Morula (see Figure above) as a means to 
+detect genes that, in spite of being co-expressed with GATA3 in the TE, are not 
+expressed at the Morula stage.
+
+```{r}
+comp_filtered <- comp %>% 
+  filter(ave_mor > 0)
+
+# The results are saved as a CSV file
+comp_filtered %>% 
+  select(-lbl) %>% 
+  readr::write_csv("gata3_partners_expr_in_Morula_YP.csv")
+
+comp_filtered %>% 
+  select(-lbl)
+
+```

@@ -1,0 +1,142 @@
+---
+title: "Identification of highly-expressed genes in GATA3- Morula samples"
+author: "Gregorio Alanis-Lobato"
+output:
+  html_document:
+    df_print: paged
+    fig_caption: yes
+---
+
+```{r setup, include=FALSE, message=FALSE}
+library(dplyr)
+library(readr)
+library(cowplot)
+library(SingleCellExperiment)
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Intro
+
+In this [R Markdown](http://rmarkdown.rstudio.com) Notebook we identify highly-
+expressed genes in Morula samples with low levels of GATA3 expression.
+
+```{r}
+load("data/SCE_yan_pet.RData")
+```
+
+## Sample selection
+
+We will focus this analysis on the 10% of the Morula samples with the lowest 
+levels of GATA3 expression:
+
+```{r gata_lo, echo = FALSE, fig.cap = "**Figure 1.** Expression of GATA3 in Morula samples. The 10% of the cells with the lowest levels of GATA3 are highlighted. GATA3 expression at the blastocyst stage is shown as a reference."}
+
+yp_sce <- yp_sce[, yp_sce$cell_alias == "Morula"]
+
+yp_sce$gata_lo <- logcounts(yp_sce)["GATA3", ] <=
+  quantile(logcounts(yp_sce)["GATA3", ], probs = seq(0.1, 1, 0.1))["10%"]
+
+scater::plotExpression(yp_sce, features = "GATA3", x = "cell_alias", 
+                       colour_by = "gata_lo", xlab = "", theme_size = 12,
+                       show_median = TRUE, add_legend = FALSE)
+```
+
+## Marker identification
+
+We now detect genes that are highly expressed in the selected Morula samples. 
+These genes show a consistent two-fold higher expression with respect to GATA3
+in all samples with low levels of GATA3.
+
+```{r message=FALSE,warning=FALSE}
+expr <- logcounts(yp_sce)[, yp_sce$gata_lo]
+gata3_avg <- mean(expr["GATA3", ])
+
+fc <- expr/gata3_avg
+idx <- rowSums(fc >= 2) == ncol(expr)
+
+genes <- rownames(expr)[idx]
+```
+
+The following table lists the identified genes, their average expression in the
+GATA3- Morula samples and their average fold-change in expression with respect 
+to GATA3 in these cells:
+
+```{r}
+tb <- tibble(Gene = genes, `Avg. expression` = rowMeans(expr[idx, ]), 
+             `Avg. fold-change` = rowMeans(fc[idx, ])) %>% 
+  arrange(desc(`Avg. fold-change`), desc(`Avg. expression`))
+tb
+```
+
+## Functional enrichment analysis of markers
+
+Finally, we perform a gene ontology (GO) over-representation test of biological 
+process annotations, as well as REACTOME pathways, in the set of identified genes. 
+
+```{r message=FALSE, warning=FALSE}
+library(enrichR)
+
+dbs <- c("GO_Biological_Process_2018", "Reactome_2016")
+
+enr <- enrichr(genes, dbs)
+enr$GO_Biological_Process_2018 %>% 
+  filter(P.value <= 0.05)
+
+enr$Reactome_2016 %>% 
+  filter(P.value <= 0.05)
+
+```
+
+The top-10 most enriched BP terms are:
+
+```{r}
+bp <- enr$GO_Biological_Process_2018 %>% 
+  arrange(P.value) %>% 
+  dplyr::select(Term, P.value, Genes)
+bp[1:10, ]
+```
+
+The top-10 most enriched REACTOME pathways are:
+
+```{r}
+rea <- enr$Reactome_2016 %>% 
+  arrange(P.value) %>% 
+  dplyr::select(Term, P.value, Genes)
+rea[1:10, ]
+```
+
+Since the above tables show that a large number of genes encode for ribosomal
+proteins, we remove them from the marker set and re-do the enrichment
+analyses:
+
+```{r}
+tb <- tb %>% 
+  filter(!(grepl("^RP", Gene) | grepl("^MRPS", Gene)))
+
+enr <- enrichr(tb$Gene, dbs)
+enr$GO_Biological_Process_2018 %>% 
+  filter(P.value <= 0.05)
+
+enr$Reactome_2016 %>% 
+  filter(P.value <= 0.05)
+
+tb
+```
+
+The top-10 most enriched BP terms are:
+
+```{r}
+bp <- enr$GO_Biological_Process_2018 %>% 
+  arrange(P.value) %>% 
+  dplyr::select(Term, P.value, Genes)
+bp[1:10, ]
+```
+
+The top-10 most enriched REACTOME pathways are:
+
+```{r}
+rea <- enr$Reactome_2016 %>% 
+  arrange(P.value) %>% 
+  dplyr::select(Term, P.value, Genes)
+rea[1:10, ]
+```

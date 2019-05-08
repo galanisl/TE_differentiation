@@ -1,0 +1,65 @@
+---
+title: "Functional enrichment analysis of gene co-expression partners of GATA3"
+author: "Gregorio Alanis-Lobato"
+output:
+  html_document:
+    df_print: paged
+    fig_caption: yes
+---
+
+```{r setup, include=FALSE, message=FALSE}
+library(dplyr)
+library(readr)
+library(cowplot)
+library(SingleCellExperiment)
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Intro
+
+In this [R Markdown](http://rmarkdown.rstudio.com) Notebook we perform functional
+enrichment analysis of the identified gene co-expression partners of GATA3 
+(Yan and Petropoulos integrated dataset).
+
+## GATA3 co-expression partners expressed in the Morula (E4)
+
+First, we load the data:
+
+```{r message=FALSE}
+gata3_mor <- read_csv("gata3_partners_expr_in_Morula_YP.csv")
+```
+
+Now, we perform a gene ontology (GO) over-representation test of biological 
+process annotations, as well as REACTOME pathways, in the set of genes. 
+
+```{r message=FALSE, warning=FALSE}
+library(enrichR)
+
+dbs <- c("GO_Biological_Process_2018", "Reactome_2016")
+
+enr <- enrichr(gata3_mor$gene, dbs)
+enr$GO_Biological_Process_2018 %>% 
+  filter(P.value <= 0.05)
+
+enr$Reactome_2016 %>% 
+  filter(P.value <= 0.05)
+
+```
+
+The top-10 most enriched BP terms are:
+
+```{r}
+bp <- enr$GO_Biological_Process_2018 %>% 
+  arrange(P.value) %>% 
+  dplyr::select(Term, P.value, Genes)
+bp[1:10, ]
+```
+
+The top-10 most enriched REACTOME pathways are:
+
+```{r}
+rea <- enr$Reactome_2016 %>% 
+  arrange(P.value) %>% 
+  dplyr::select(Term, P.value, Genes)
+rea[1:10, ]
+```

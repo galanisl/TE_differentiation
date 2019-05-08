@@ -1,0 +1,441 @@
+---
+title: "scRNA-seq data processing (human pre-implantation embryo development)"
+author: "Gregorio Alanis-Lobato"
+output:
+  html_document:
+    df_print: paged
+    fig_caption: yes
+---
+
+## Intro
+
+```{r setup, include=FALSE, message=FALSE}
+library(dplyr)
+library(readr)
+library(cowplot)
+library(SummarizedExperiment)
+library(SingleCellExperiment)
+library(scran)
+library(scater)
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This [R Markdown](http://rmarkdown.rstudio.com) Notebook takes scRNA-Seq raw 
+counts from the following papers, intersects the count matrices and applies the 
+quality control and normalisation pipeline outlined [here](https://f1000research.com/articles/5-2122/v2).
+
+The scRNA-seq data is from:
+
+* Yan, L. *et al.* (2013) *Nature Structural & Molecular Biology* 20(9):1131-1139.
+* Petropoulos, S. *et al.* (2016) *Cell* 165(4):1012-1026.
+
+## Integration of Yan and Petropoulos scRNA-seq data
+
+We start by loading the raw counts stored in `SingleCellExperiment` objects:
+
+```{r}
+load("data/SCE_yan_raw.RData")
+load("data/SCE_pet_raw.RData")
+```
+
+Now we merge based on common genes and create a column of common sample types:
+
+```{r}
+common_genes <- intersect(rownames(yan_sce), rownames(pet_sce))
+common_matrix <- cbind(counts(yan_sce)[common_genes, ], 
+                       counts(pet_sce)[common_genes, ])
+colD <- tibble(cell_type = c(as.character(yan_sce$cell_type), 
+                             as.character(pet_sce$group)),
+               cell_alias = cell_type,
+               origin = factor(c(rep("Yan", ncol(yan_sce)), 
+                                 rep("Petropoulos", ncol(pet_sce))))) %>% 
+  dplyr::mutate(cell_alias = case_when(
+    cell_alias == "4-cell embryo" ~ "4-cell",
+    cell_alias == "8-cell embryo" ~ "8-cell",
+    cell_alias == "Morulae" ~ "Morula",
+    cell_alias == "E3" ~ "8-cell",
+    cell_alias == "E4" ~ "Morula",
+    cell_alias == "E5" ~ "Early blastocyst",
+    cell_alias == "E6" ~ "Expanded blastocyst",
+    cell_alias == "E7" ~ "Late blastocyst",
+    TRUE ~ cell_alias)) %>% 
+  dplyr::mutate(cell_alias = factor(cell_alias, 
+                                    levels = c("Oocyte", "Zygote", "2-cell",
+                                               "4-cell", "8-cell", "Morula",
+                                               "Early blastocyst",
+                                               "Expanded blastocyst",
+                                               "Late blastocyst"), 
+                                    ordered = TRUE))
+
+yp_sce <- SingleCellExperiment(assays = list(counts = common_matrix), 
+                               colData = colD, 
+                               rowData = tibble(gene_name = common_genes))
+
+```
+
+```{r echo=FALSE, message=FALSE, include=FALSE}
+# Some hidden cleanup
+rm(metad, stages, idx, samples, f, readcounts, sample_details, cData, yan,
+   pet_sce, yan_sce, common_genes, common_matrix)
+```
+
+We are now ready to apply the processing pipeline to the integrated dataset.
+
+Based on data from the [MitoCarta 2.0](http://mitominer.mrc-mbu.cam.ac.uk/release-4.0/mitocarta.do),
+we identify mitochondrial genes:
+
+```{r message=FALSE}
+mc <- read_tsv("data/MitoCarta2_human.tsv")
+is.mito <- rownames(yp_sce) %in% mc$gene_name
+```
+
+For each cell, we calculate the following quality control metrics:
+
+* Total number of counts.
+* Number of expressed genes.
+* Proportion of counts in mitochondrial genes.
+
+```{r}
+yp_sce <- calculateQCMetrics(yp_sce, feature_controls = list(Mt = is.mito))
+qc <- tibble(tot_counts = yp_sce$total_counts / 1e6,
+             expr_genes = yp_sce$total_features_by_counts,
+             pct_mt = yp_sce$pct_counts_Mt)
+```
+
+### Quality control on the cells
+
+Low-quality cells need to be removed to ensure that technical effects do not 
+distort downstream analysis results. The measures of cell quality that we use 
+here are the library size, the number of expressed features in each library and 
+the proportion of reads mapped to genes in the mitochondrial genome.
+
+The **library size** is defined as the total sum of counts across all features. 
+Cells with relatively small library sizes are considered to be of low quality as 
+the RNA has not been efficiently captured (i.e., converted into cDNA and 
+amplified) during library preparation. The **number of expressed features** in 
+each cell is defined as the number of features with non-zero counts for that 
+cell. Any cell with very few expressed genes is likely to be of poor quality as 
+the diverse transcript population has not been successfully captured. Finally, 
+high **proportions of reads mapped to mitochondrial genes** are indicative of 
+poor-quality cells, possibly because of increased apoptosis and/or loss of 
+cytoplasmic RNA from lysed cells. The distributions of these metrics are shown 
+in the following Figure:
+
+```{r qc, echo = FALSE, fig.cap = "**Figure 1.** Histogram of (a) library sizes, (b) expressed genes and (c) percentage of reads mapped to mitochondrial genes. Medians are shown as dashed blue lines."}
+lbl <- c("Library size (millions)", "Number of expressed genes", 
+         "Counts mapped to mito-genes (%)")
+p <- list()
+for(i in 1:ncol(qc)){
+  p[[i]] <- ggplot(qc, aes_string(x = colnames(qc)[i])) + 
+    geom_histogram(bins = 15) +
+    geom_vline(xintercept = median(qc[[i]]), linetype = 2, colour = "blue") +
+    labs(x = lbl[i], y = "Number of cells") + theme_bw()
+}
+plot_grid(plotlist = p, labels = letters[1:ncol(qc)])
+```
+
+We use an adaptive threshold to filter out cells based on the above metrics. We 
+assume that most of the dataset consists of high-quality cells and thus remove
+cells with log-library sizes that are 3 median absolute deviations (MADs) below 
+the median log-library size (a log-transformation improves resolution at small 
+values, especially when the MAD of the raw values is comparable to or greater 
+than the median). We also remove cells where the log-transformed number of 
+expressed genes is 3 MADs below the median and where the proportion of reads 
+mapped to mitochondrial genes is 3 MADs above the median proportion:
+
+```{r}
+libsize.drop <- isOutlier(yp_sce$total_counts, nmads = 3, 
+                          type = "lower", log = TRUE)
+feature.drop <- isOutlier(yp_sce$total_features_by_counts, nmads = 3, 
+                          type = "lower", log = TRUE)
+mito.drop <- isOutlier(yp_sce$pct_counts_Mt, nmads = 3, type = "higher")
+
+yp_sce <- yp_sce[, !(libsize.drop | feature.drop | mito.drop)]
+```
+
+We examine the number of cells removed by each filter as well as the total 
+number of retained cells. Removal of a substantial proportion of cells (> 10%) 
+may be indicative of an overall issue with data quality:
+
+```{r echo=FALSE}
+tibble(Stat = c("Removed due to Lib. Size", "Removed due to Features", 
+                "Removed due to Mito.", "Remaining Yan", 
+                "Remaining Petropoulos", "Remaining"), 
+       `Number of cells` = c(sum(libsize.drop), sum(feature.drop), 
+                             sum(mito.drop), sum(yp_sce$origin == "Yan"), 
+                             sum(yp_sce$origin == "Petropoulos"), ncol(yp_sce)))
+```
+
+### Cell cycle assignment
+
+We use the prediction method described by [Scialdone et al. (2015)](https://doi.org/10.1016/j.ymeth.2015.06.021) 
+to classify cells into cell cycle phases based on their gene expression 
+profiles. This approach is implemented in the `scran::cyclone` function using a 
+pre-trained set of cell cycle markers for human. This function yields a cell 
+cycle score for each cell. 
+
+Cells are classified as follows:
+
+* **G1 phase**: the G1 score is above 0.5 and greater than the G2/M.
+* **G2/M phase**: the G2/M score is above 0.5 and greater than the G1 score.
+* **S phase**: G1 and G2/M scores are at or below 0.5.
+
+```{r message=FALSE}
+hs.cycle <- readRDS(system.file("exdata", "human_cycle_markers.rds", 
+                                package = "scran"))
+library(org.Hs.eg.db)
+anno <- select(org.Hs.eg.db, keys = rownames(yp_sce), keytype = "SYMBOL", 
+               column = "ENSEMBL")
+ensembl <- anno$ENSEMBL[match(rownames(yp_sce), anno$SYMBOL)]
+assignments <- cyclone(yp_sce, hs.cycle, gene.names = ensembl)
+yp_sce$cycle <- factor(
+  case_when(
+    assignments$scores$G1 > 0.5 & assignments$scores$G1 >= assignments$scores$G2M ~ "G1",
+    assignments$scores$G2M > 0.5 & assignments$scores$G2M > assignments$scores$G1 ~ "G2M",
+    assignments$scores$G1 <= 0.5 & assignments$scores$G2M <= 0.5 ~ "S")
+)
+colData(yp_sce) <- cbind(colData(yp_sce), assignments$scores)
+```
+
+The result of phase assignment for each cell is shown in the Figure below. Normally, 
+cells in phases other than G1 are removed to avoid potential confounding effects 
+from cell cycle-induced differences. Alternatively, if a non-negligible number 
+of cells are in other phases, we can use the assigned phase as a blocking factor 
+in downstream analyses. This protects against cell cycle effects without 
+discarding information. We will use this strategy later in this pipeline.
+
+```{r cc, echo = FALSE, fig.cap = "**Figure 2.** Cell cycle scores for this dataset. Dashed blue lines are references for the phase assignment."}
+cc <- tibble(G1 = assignments$score$G1, G2M = assignments$score$G2M, 
+             cycle = yp_sce$cycle)
+ggplot(cc, aes(G1, G2M, colour = cycle)) + geom_point() + 
+  coord_cartesian(xlim = c(0, 1), ylim = c(0, 1)) +
+  labs(x = "G1 score", y = "G2/M score", colour = "Predicted phase") +
+  theme_bw()
+```
+
+### Filtering out low-abundance genes
+
+Low-abundance genes are problematic as zero or near-zero counts do not contain 
+enough information for reliable statistical inference [(Bourgon et al., 2010)](http://dx.doi.org/10.1073/pnas.0914005107). In addition, the discreteness of the counts may interfere with downstream 
+statistical procedures, e.g., by compromising the accuracy of continuous 
+approximations. Here, low-abundance genes are defined as those with an average 
+count below a filter threshold of 1. These genes are likely to be dominated by
+drop-out events [(Brennecke et al., 2013)](http://dx.doi.org/10.1038/nmeth.2645), 
+which limits their usefulness in later analyses. Removal of these genes 
+mitigates discreteness and reduces the amount of computational work without 
+major loss of information.
+
+```{r}
+ave.counts <- rowMeans(counts(yp_sce))
+keep <- ave.counts >= 1
+sum(keep)
+```
+
+To check whether the chosen threshold is suitable, we examine the distribution 
+of log-means across all genes in the following Figure. The peak to the right 
+represents the bulk of moderately expressed genes while the rectangular component 
+around 0 corresponds to lowly expressed genes. The filter threshold should cut 
+the distribution at some point along the rectangular component to remove the 
+majority of low-abundance genes, which it does in this case.
+
+```{r gf, echo = FALSE, fig.cap = "**Figure 3.** Histogram of log10 average counts of genes. The dashed blue line corresponds to the chosen threshold."}
+tibble(avg = log10(ave.counts[ave.counts > 0])) %>% 
+  ggplot(aes(avg)) + 
+  geom_histogram(bins = 100) +
+  geom_vline(xintercept = log10(1), linetype = 2, colour = "blue") +
+  labs(x = expression(log[10]~"average count"), y = "Frequency") +
+  theme_bw()
+```
+
+In the following Figure, we also look at the identities of the most highly 
+expressed genes. This should generally be dominated by constitutively expressed 
+transcripts, such as those for ribosomal or mitochondrial proteins. The presence 
+of other classes of features may be cause for concern if they are not consistent 
+with expected biology, while the absence of ribosomal proteins and/or the presence 
+of their pseudogenes are indicative of suboptimal alignment.
+
+```{r ge, echo = FALSE, fig.cap = "**Figure 4.** Percentage of total counts assigned to the top 50 most abundant features. For each feature, each bar represents the percentage assigned to that feature for a single cell, while the circle represents the average across all cells. Bars are coloured by the total number of expressed features in each cell, while circles are coloured according to whether the feature is labelled as a control feature."}
+plotHighestExprs(yp_sce, n = 50)
+```
+
+Thus, we apply the mean-based filter to the data by subsetting the 
+`SingleCellExperiment` object. This removes all rows corresponding to endogenous 
+genes with abundances below the specified threshold.
+
+```{r}
+yp_sce <- yp_sce[keep,]
+save(yp_sce, file = "data/SCE_yan_pet_RAW.RData")
+```
+
+### Normalisation and imputation
+
+Read counts are subject to differences in capture efficiency and sequencing
+depth between cells. Normalisation is required to eliminate these cell-specific
+biases prior to downstream quantitative analyses. This is often done by assuming
+that most genes are not differentially expressed (DE) between cells. Any
+systematic difference in count size across the non-DE majority of genes between
+two cells is assumed to represent bias and is removed by scaling. More
+specifically, *size factors* are calculated that represent the extent to which
+counts should be scaled in each library.
+
+Size factors can be computed with several different approaches, e.g. with
+packages `DESeq2` or `edgeR`. However, single-cell data can be problematic for
+these bulk data-based methods due to the dominance of low and zero counts. To
+overcome this, we pool counts from many cells to increase the count size for
+accurate size factor estimation [(Lun et al., 2016)](http://dx.doi.org/10.1186/s13059-016-0947-7).
+Pool-based size factors are then *deconvolved* into cell-based factors for
+cell-specific normalisation:
+
+```{r}
+yp_sce <- computeSumFactors(yp_sce, sizes = seq(11, 101, 5))
+summary(sizeFactors(yp_sce))
+```
+
+The following Figure shows a tight correlation between size factors and library 
+sizes, which stresses the importance of having cell-based scaling factors to 
+avoid differences between samples being driven by differences in capture 
+efficiency or sequencing depth.
+
+```{r sf, echo = FALSE, message=FALSE, fig.cap = "**Figure 5.** Size factors from deconvolution, plotted against library sizes for all cells."}
+library(scales)
+tibble(sf = sizeFactors(yp_sce), ls = yp_sce$total_counts/1e6) %>%
+  ggplot(aes(sf, ls)) + geom_point() +
+  scale_x_log10(breaks = trans_breaks("log10", function(x) 10^x, n = 2),
+                labels = trans_format("log10", math_format())) +
+  scale_y_log10(breaks = trans_breaks("log10", function(x) 10^x, n = 2),
+                labels = trans_format("log10", math_format())) +
+  annotation_logticks() +
+  labs(x = "Size factors", y = "Library size (millions)") + theme_bw()
+```
+
+The count data are used to compute normalised log-expression values for
+use in downstream analyses. Each value is defined as the log-ratio of each count
+to the size factor for the corresponding cell, after adding a prior count of 1
+to avoid undefined values at zero counts. Division by the size factor ensures
+that any cell-specific biases are removed. The log-transformation provides some
+measure of variance stabilization [(Law et al., 2014)](http://dx.doi.org/10.1186/gb-2014-15-2-r29),
+so that high-abundance genes with large variances do not dominate downstream
+analyses.
+
+```{r}
+yp_sce <- normalize(yp_sce)
+```
+
+We impute dropout events with [DrImpute](https://doi.org/10.1186/s12859-018-2226-y).
+This tool identifies similar cells based on clustering, and imputation is performed
+by averaging the expression values from similar cells. To achieve robust
+estimations, the imputation is performed multiple times using different cell
+clustering results followed by averaging multiple estimations for final
+imputation. Paramater `ks` is thus very important, as it defines the different
+cluster sizes that `DrImpute` will use.
+
+```{r message=FALSE}
+assays(yp_sce)$logcounts_old <- assays(yp_sce)$logcounts
+assays(yp_sce)$logcounts <- DrImpute::DrImpute(assays(yp_sce)$logcounts,
+                                               ks = 10:15)
+```
+
+### Identifying highly variable genes from the normalised log-expression
+
+We identify highly variable genes (HVGs) to focus on the genes that are driving
+heterogeneity across the population of cells. This requires estimation of the
+variance in expression for each gene, followed by decomposition of the variance
+into biological and technical components. HVGs are then genes with the largest
+biological components. This avoids prioritising genes that are highly variable
+due to technical factors such as sampling noise during RNA capture and library
+preparation.
+
+Ideally, the technical component would be estimated by fitting a mean-variance
+trend to the spike-in transcripts, as these should only exhibit technical noise.
+However, we don't have spike-ins in this dataset. Therefore, we use the
+alternative approach of fitting the trend to the variance estimates of the
+endogenous genes. This assumes that the majority of genes are not variably
+expressed, such that the technical component dominates the total variance for
+those genes. The fitted value of the trend is then used as an estimate of the
+technical component. Also, we block on the cell cycle scores as a continuous
+variable to avoid the emergence of any uninteresting structure due to this
+confounding factor.
+
+```{r}
+des_mat <- model.matrix(~ origin + G1 + G2M, colData(yp_sce))
+var.fit <- trendVar(yp_sce, method = "loess", use.spikes = FALSE,
+                    design = des_mat)
+var.out <- decomposeVar(yp_sce, var.fit)
+```
+
+```{r var, echo = FALSE, fig.cap = "**Figure 6.** Variance of normalised log-expression values for each gene in the dataset, plotted against the mean log-expression. The blue line represents the mean-dependent trend fitted to the variances of the endogenous genes."}
+o <- order(var.out$mean)
+tibble(mu = var.out$mean, var = var.out$total, sorted_mu = var.out$mean[o],
+       tech = var.out$tech[o]) %>%
+  ggplot(aes(mu, var)) + geom_point() +
+  geom_line(aes(sorted_mu, tech), colour = "blue") +
+  labs(x = "Mean log-expression", y = "Variance of log-expression") + theme_bw()
+```
+
+HVGs are defined as genes with biological components greater than or equal to 0.5
+and that are significantly greater than zero at a false discovery rate (FDR) of
+5%:
+
+```{r}
+hvg.out <- var.out[which(var.out$FDR <= 0.05 & var.out$bio >= 0.5),]
+hvg.out <- hvg.out[order(hvg.out$bio, decreasing = TRUE),]
+
+hvg.strict <- var.out[which(var.out$FDR <= 0.05 & var.out$bio >= quantile(var.out$bio, probs=.99)),]
+hvg.strict <- hvg.strict[order(hvg.strict$bio, decreasing = TRUE),]
+nrow(hvg.out)
+```
+
+The top ten HVGs for this dataset are:
+
+```{r echo=FALSE}
+head(hvg.out, 10)
+```
+
+Correlations between HVGs can be used to distinguish HVGs caused by random noise and
+those involved in driving systematic differences between subpopulations. Significant
+correlations provide evidence for substructure in the dataset, i.e. subpopulations
+of cells with systematic differences in their expression profiles.
+
+```{r, message=FALSE}
+set.seed(100)
+hvg.cor <- correlatePairs(yp_sce, subset.row = rownames(hvg.out))
+sig.cor <- hvg.cor$FDR <= 0.05
+top.hvg <- unique(c(hvg.cor$gene1[sig.cor], hvg.cor$gene2[sig.cor]))
+
+hvg.cor_strict <- correlatePairs(yp_sce, subset.row = rownames(hvg.strict))
+sig.cor_strict <- hvg.cor_strict$FDR <= 0.05
+top.strict <- unique(c(hvg.cor_strict$gene1[sig.cor_strict],
+                       hvg.cor_strict$gene2[sig.cor_strict]))
+```
+
+Principal component analysis based on correlated HVGs should clearly reveal the
+structure of the data:
+
+```{r pca, echo = FALSE, fig.cap = "**Figure 7.** PCA of the data based on correlated HVGs."}
+
+yp_sce <- runPCA(yp_sce, exprs_values = "logcounts", feature_set = top.hvg)
+
+plotReducedDim(yp_sce, use_dimred = "PCA", colour_by = "cell_alias", 
+               add_ticks = FALSE)
+
+```
+
+The following Figure shows a `UMAP` embedding of the data:
+
+```{r umap, echo = FALSE, fig.cap = "**Figure 8.** UMAP of the data based on correlated HVGs."}
+yp_sce <- runUMAP(yp_sce, exprs_values = "logcounts", feature_set = top.hvg)
+
+plotReducedDim(yp_sce, use_dimred = "UMAP", colour_by = "cell_alias", 
+               add_ticks = FALSE)
+```
+
+We save the `SingleCellExperiment` dataset as well as its associated HVGs:
+
+```{r}
+yp_hvg_corr <- top.hvg
+yp_hvg_all <- hvg.out
+
+yp_hvg_strict <- top.strict
+save(yp_sce, yp_hvg_corr, yp_hvg_all, yp_hvg_strict, file = "data/SCE_yan_pet.RData")
+```
+

@@ -1,0 +1,1158 @@
+gene_id	entrez_id	gene_name	gene_description	chr	mitocarta_evidence	impi_evidence	go_evidence	proteinatlas_evidence
+ENSG00000109576	51166	AADAT	aminoadipate aminotransferase	4	true	Known mitochondrial	true	false
+ENSG00000124608	57505	AARS2	alanyl-tRNA synthetase 2, mitochondrial	6	true	Known mitochondrial	true	true
+ENSG00000008311	10157	AASS	aminoadipate-semialdehyde synthase	7	true	Known mitochondrial	true	true
+ENSG00000183044	18	ABAT	4-aminobutyrate aminotransferase	16	true	Known mitochondrial	true	true
+ENSG00000179869	154664	ABCA13	ATP binding cassette subfamily A member 13	7	true	Predicted mitochondrial	false	false
+ENSG00000154258	10350	ABCA9	ATP binding cassette subfamily A member 9	17	true	Predicted mitochondrial	false	false
+ENSG00000135776	23456	ABCB10	ATP binding cassette subfamily B member 10	1	true	Known mitochondrial	true	false
+ENSG00000115657	10058	ABCB6	ATP binding cassette subfamily B member 6 (Langereis blood group)	2	true	Known mitochondrial	true	true
+ENSG00000131269	22	ABCB7	ATP binding cassette subfamily B member 7	X	true	Known mitochondrial	true	true
+ENSG00000197150	11194	ABCB8	ATP binding cassette subfamily B member 8	7	true	Known mitochondrial	true	true
+ENSG00000150967	23457	ABCB9	ATP binding cassette subfamily B member 9	12	true	Predicted NOT mitochondrial	false	false
+ENSG00000101986	215	ABCD1	ATP binding cassette subfamily D member 1	X	true	Predicted mitochondrial	false	false
+ENSG00000173208	225	ABCD2	ATP binding cassette subfamily D member 2	12	true	Predicted NOT mitochondrial	false	false
+ENSG00000117528	5825	ABCD3	ATP binding cassette subfamily D member 3	1	true	Predicted mitochondrial	true	false
+ENSG00000033050	10061	ABCF2	ATP binding cassette subfamily F member 2	7	true	Predicted mitochondrial	true	false
+ENSG00000144827	55347	ABHD10	abhydrolase domain containing 10	3	true	Known mitochondrial	true	true
+ENSG00000106077	83451	ABHD11	abhydrolase domain containing 11	7	true	Known mitochondrial	false	true
+ENSG00000167774		AC010323.1		19	true	Dubious gene	false	false
+ENSG00000198211		AC092143.1		16	true	Known mitochondrial	false	false
+ENSG00000060971	30	ACAA1	acetyl-CoA acyltransferase 1	3	true	Predicted mitochondrial	false	false
+ENSG00000167315	10449	ACAA2	acetyl-CoA acyltransferase 2	18	true	Known mitochondrial	true	true
+ENSG00000278540		ACACA	acetyl-CoA carboxylase alpha	17	true	Known NOT mitochondrial	false	false
+ENSG00000076555	32	ACACB	acetyl-CoA carboxylase beta	12	true	Known mitochondrial	true	false
+ENSG00000111271	80724	ACAD10	acyl-CoA dehydrogenase family member 10	12	true	Known mitochondrial	true	false
+ENSG00000240303	84129	ACAD11	acyl-CoA dehydrogenase family member 11	3	true	Known mitochondrial	true	false
+ENSG00000151498	27034	ACAD8	acyl-CoA dehydrogenase family member 8	11	true	Known mitochondrial	true	false
+ENSG00000177646	28976	ACAD9	acyl-CoA dehydrogenase family member 9	3	true	Known mitochondrial	true	true
+ENSG00000115361	33	ACADL	acyl-CoA dehydrogenase long chain	2	true	Known mitochondrial	true	false
+ENSG00000117054	34	ACADM	acyl-CoA dehydrogenase medium chain	1	true	Known mitochondrial	true	true
+ENSG00000122971	35	ACADS	acyl-CoA dehydrogenase short chain	12	true	Known mitochondrial	true	true
+ENSG00000196177	36	ACADSB	acyl-CoA dehydrogenase short/branched chain	10	true	Known mitochondrial	true	true
+ENSG00000072778	37	ACADVL	acyl-CoA dehydrogenase very long chain	17	true	Known mitochondrial	true	true
+ENSG00000075239	38	ACAT1	acetyl-CoA acetyltransferase 1	11	true	Known mitochondrial	true	true
+ENSG00000110455	84680	ACCS	1-aminocyclopropane-1-carboxylate synthase homolog (inactive)	11	true	Predicted NOT mitochondrial	false	false
+ENSG00000131473	47	ACLY	ATP citrate lyase	17	true	Known mitochondrial	false	false
+ENSG00000122729	48	ACO1	aconitase 1	9	true	Predicted NOT mitochondrial	true	true
+ENSG00000100412	50	ACO2	aconitase 2	22	true	Known mitochondrial	true	true
+ENSG00000112304	55856	ACOT13	acyl-CoA thioesterase 13	6	true	Predicted mitochondrial	true	false
+ENSG00000119673	10965	ACOT2	acyl-CoA thioesterase 2	14	true	Known mitochondrial	true	true
+ENSG00000097021	11332	ACOT7	acyl-CoA thioesterase 7	1	true	Known mitochondrial	true	false
+ENSG00000123130	23597	ACOT9	acyl-CoA thioesterase 9	X	true	Known mitochondrial	true	false
+ENSG00000161533	51	ACOX1	acyl-CoA oxidase 1	17	true	Probable contaminant	false	false
+ENSG00000087008	8310	ACOX3	acyl-CoA oxidase 3, pristanoyl	4	true	Probable contaminant	false	false
+ENSG00000162836	51205	ACP6	acid phosphatase 6, lysophosphatidic	1	true	Known mitochondrial	true	false
+ENSG00000167107	80221	ACSF2	acyl-CoA synthetase family member 2	17	true	Known mitochondrial	true	false
+ENSG00000176715	197322	ACSF3	acyl-CoA synthetase family member 3	16	true	Known mitochondrial	true	false
+ENSG00000151726	2180	ACSL1	acyl-CoA synthetase long chain family member 1	4	true	Known mitochondrial	true	true
+ENSG00000068366	2182	ACSL4	acyl-CoA synthetase long chain family member 4	X	true	Known mitochondrial	true	true
+ENSG00000164398	23305	ACSL6	acyl-CoA synthetase long chain family member 6	5	true	Predicted mitochondrial	true	false
+ENSG00000166743	116285	ACSM1	acyl-CoA synthetase medium chain family member 1	16	true	Known mitochondrial	true	false
+ENSG00000183747	123876	ACSM2A	acyl-CoA synthetase medium chain family member 2A	16	true	Known mitochondrial	true	false
+ENSG00000005187	6296	ACSM3	acyl-CoA synthetase medium chain family member 3	16	true	Known mitochondrial	true	false
+ENSG00000183549	54988	ACSM5	acyl-CoA synthetase medium chain family member 5	16	true	Known mitochondrial	true	false
+ENSG00000154930	84532	ACSS1	acyl-CoA synthetase short chain family member 1	20	true	Known mitochondrial	true	false
+ENSG00000111058	79611	ACSS3	acyl-CoA synthetase short chain family member 3	12	true	Known mitochondrial	true	true
+ENSG00000170634	98	ACYP2	acylphosphatase 2	2	true	Predicted mitochondrial	false	false
+ENSG00000063761	57143	ADCK1	aarF domain containing kinase 1	14	true	Predicted mitochondrial	false	false
+ENSG00000133597	90956	ADCK2	aarF domain containing kinase 2	7	true	Predicted mitochondrial	false	false
+ENSG00000173137	203054	ADCK5	aarF domain containing kinase 5	8	true	Predicted mitochondrial	false	false
+ENSG00000147576	137872	ADHFE1	alcohol dehydrogenase, iron containing 1	8	true	Known mitochondrial	true	false
+ENSG00000135537	246269	AFG1L	AFG1 like ATPase	6	true	Known mitochondrial	true	false
+ENSG00000141385	10939	AFG3L2	AFG3 like matrix AAA peptidase subunit 2	18	true	Known mitochondrial	true	true
+ENSG00000006530		AGK	acylglycerol kinase	7	true	Known mitochondrial	true	true
+ENSG00000116771	79814	AGMAT	agmatinase	1	true	Known mitochondrial	true	false
+ENSG00000155189	55326	AGPAT5	1-acylglycerol-3-phosphate O-acyltransferase 5	8	true	Known mitochondrial	true	false
+ENSG00000106541	10551	AGR2	anterior gradient 2, protein disulphide isomerase family member	7	true	Predicted NOT mitochondrial	false	false
+ENSG00000172482	189	AGXT	alanine-glyoxylate aminotransferase	2	true	Predicted mitochondrial	true	false
+ENSG00000113492	64902	AGXT2	alanine--glyoxylate aminotransferase 2	5	true	Known mitochondrial	true	false
+ENSG00000168710	10768	AHCYL1	adenosylhomocysteinase like 1	1	true	Known NOT mitochondrial	false	false
+ENSG00000156709	9131	AIFM1	apoptosis inducing factor mitochondria associated 1	X	true	Known mitochondrial	true	false
+ENSG00000042286	84883	AIFM2	apoptosis inducing factor, mitochondria associated 2	10	true	Predicted NOT mitochondrial	true	false
+ENSG00000183773	150209	AIFM3	apoptosis inducing factor, mitochondria associated 3	22	true	Known mitochondrial	true	true
+ENSG00000004455	204	AK2	adenylate kinase 2	1	true	Known mitochondrial	true	false
+ENSG00000147853	50808	AK3	adenylate kinase 3	9	true	Known mitochondrial	true	true
+ENSG00000162433	205	AK4	adenylate kinase 4	1	true	Known mitochondrial	true	true
+ENSG00000121057	8165	AKAP1	A-kinase anchoring protein 1	17	true	Known mitochondrial	true	true
+ENSG00000108599	11216	AKAP10	A-kinase anchoring protein 10	17	true	Known mitochondrial	true	false
+ENSG00000198074	57016	AKR1B10	aldo-keto reductase family 1 member B10	7	true	Predicted NOT mitochondrial	false	false
+ENSG00000053371	8574	AKR7A2	aldo-keto reductase family 7 member A2	1	true	Known mitochondrial	false	false
+ENSG00000124593		AL365205.1		6	true	Predicted NOT mitochondrial	false	false
+ENSG00000023330	211	ALAS1	5'-aminolevulinate synthase 1	3	true	Known mitochondrial	true	true
+ENSG00000158578	212	ALAS2	5'-aminolevulinate synthase 2	X	true	Known mitochondrial	true	false
+ENSG00000059573	5832	ALDH18A1	aldehyde dehydrogenase 18 family member A1	10	true	Known mitochondrial	true	true
+ENSG00000137124	219	ALDH1B1	aldehyde dehydrogenase 1 family member B1	9	true	Known mitochondrial	true	true
+ENSG00000144908	10840	ALDH1L1	aldehyde dehydrogenase 1 family member L1	3	true	Known mitochondrial	false	false
+ENSG00000136010	160428	ALDH1L2	aldehyde dehydrogenase 1 family member L2	12	true	Known mitochondrial	true	true
+ENSG00000111275	217	ALDH2	aldehyde dehydrogenase 2 family (mitochondrial)	12	true	Known mitochondrial	true	false
+ENSG00000072210	224	ALDH3A2	aldehyde dehydrogenase 3 family member A2	17	true	Known mitochondrial	false	false
+ENSG00000159423	8659	ALDH4A1	aldehyde dehydrogenase 4 family member A1	1	true	Known mitochondrial	true	false
+ENSG00000112294	7915	ALDH5A1	aldehyde dehydrogenase 5 family member A1	6	true	Known mitochondrial	true	true
+ENSG00000119711	4329	ALDH6A1	aldehyde dehydrogenase 6 family member A1	14	true	Known mitochondrial	true	true
+ENSG00000164904	501	ALDH7A1	aldehyde dehydrogenase 7 family member A1	5	true	Known mitochondrial	true	true
+ENSG00000143149	223	ALDH9A1	aldehyde dehydrogenase 9 family member A1	1	true	Known mitochondrial	false	false
+ENSG00000100601	8846	ALKBH1	alkB homolog 1, histone H2A dioxygenase	14	true	Known mitochondrial	true	false
+ENSG00000166199	221120	ALKBH3	alkB homolog 3, alpha-ketoglutaratedependent dioxygenase	11	true	Predicted mitochondrial	true	false
+ENSG00000125652	84266	ALKBH7	alkB homolog 7	19	true	Known mitochondrial	true	false
+ENSG00000242110	23600	AMACR	alpha-methylacyl-CoA racemase	5	true	Known mitochondrial	true	false
+ENSG00000145020	275	AMT	aminomethyltransferase	3	true	Known mitochondrial	true	true
+ENSG00000174606	90806	ANGEL2	angel homolog 2	1	true	Known mitochondrial	false	true
+ENSG00000169188	27301	APEX2	apurinic/apyrimidinic endodeoxyribonuclease 2	X	true	Known mitochondrial	true	false
+ENSG00000184831	79135	APOO	apolipoprotein O	X	true	Known mitochondrial	true	true
+ENSG00000155008	139322	APOOL	apolipoprotein O like	X	true	Known mitochondrial	true	true
+ENSG00000256053	84334	APOPT1	apoptogenic 1, mitochondrial	14	true	Known mitochondrial	true	false
+ENSG00000004059	381	ARF5	ADP ribosylation factor 5	7	true	Predicted NOT mitochondrial	false	false
+ENSG00000081181	384	ARG2	arginase 2	14	true	Known mitochondrial	true	true
+ENSG00000213465	402	ARL2	ADP ribosylation factor like GTPase 2	11	true	Known mitochondrial	true	false
+ENSG00000170632	83787	ARMC10	armadillo repeat containing 10	7	true	Known mitochondrial	true	true
+ENSG00000254636	387715	ARMS2	age-related maculopathy susceptibility 2	10	true	Known mitochondrial	true	false
+ENSG00000188611	56624	ASAH2	N-acylsphingosine amidohydrolase 2	10	true	Known mitochondrial	true	false
+ENSG00000138138		ATAD1	ATPase family, AAA domain containing 1	10	true	Known mitochondrial	false	true
+ENSG00000197785	55210	ATAD3A	ATPase family, AAA domain containing 3A	1	true	Known mitochondrial	true	true
+ENSG00000160072	83858	ATAD3B	ATPase family, AAA domain containing 3B	1	true	Known mitochondrial	true	true
+ENSG00000138363	471	ATIC	5-aminoimidazole-4-carboxamide ribonucleotide formyltransferase/IMP cyclohydrolase	2	true	Predicted mitochondrial	false	false
+ENSG00000145246	57205	ATP10D	ATPase phospholipid transporting 10D (putative)	4	true	Predicted NOT mitochondrial	false	false
+ENSG00000166896		ATP23	ATP23 metallopeptidase and ATP synthase assembly factor homolog	12	true	Predicted NOT mitochondrial	false	false
+ENSG00000152234	498	ATP5F1A	ATP synthase F1 subunit alpha	18	true	Known mitochondrial	true	true
+ENSG00000110955	506	ATP5F1B	ATP synthase F1 subunit beta	12	true	Known mitochondrial	true	true
+ENSG00000165629	509	ATP5F1C	ATP synthase F1 subunit gamma	10	true	Known mitochondrial	true	false
+ENSG00000099624	513	ATP5F1D	ATP synthase F1 subunit delta	19	true	Known mitochondrial	true	false
+ENSG00000124172	514	ATP5F1E	ATP synthase F1 subunit epsilon	20	true	Known mitochondrial	true	false
+ENSG00000130770	93974	ATP5IF1	ATP synthase inhibitory factor subunit 1	1	true	Known mitochondrial	true	true
+ENSG00000159199	516	ATP5MC1	ATP synthase membrane subunit c locus 1	17	true	Known mitochondrial	true	false
+ENSG00000135390	517	ATP5MC2	ATP synthase membrane subunit c locus 2	12	true	Known mitochondrial	true	false
+ENSG00000154518	518	ATP5MC3	ATP synthase membrane subunit c locus 3	2	true	Known mitochondrial	true	false
+ENSG00000173915	84833	ATP5MD	ATP synthase membrane subunit DAPIT	10	true	Known mitochondrial	true	true
+ENSG00000169020	521	ATP5ME	ATP synthase membrane subunit e	4	true	Known mitochondrial	true	true
+ENSG00000241468	9551	ATP5MF	ATP synthase membrane subunit f	7	true	Known mitochondrial	true	true
+ENSG00000167283	10632	ATP5MG	ATP synthase membrane subunit g	11	true	Known mitochondrial	true	true
+ENSG00000156411	9556	ATP5MPL	ATP synthase membrane subunit 6.8PL	14	true	Known mitochondrial	true	true
+ENSG00000116459	515	ATP5PB	ATP synthase peripheral stalk-membrane subunit b	1	true	Known mitochondrial	true	true
+ENSG00000167863	10476	ATP5PD	ATP synthase peripheral stalk subunit d	17	true	Known mitochondrial	true	false
+ENSG00000154723	522	ATP5PF	ATP synthase peripheral stalk subunit F6	21	true	Known mitochondrial	true	true
+ENSG00000241837	539	ATP5PO	ATP synthase peripheral stalk subunit OSCP	21	true	Known mitochondrial	true	true
+ENSG00000125375	27109	ATP5S	ATP synthase, H+ transporting, mitochondrial Fo complex subunit s (factor B)	14	true	Known mitochondrial	true	true
+ENSG00000123472	64756	ATPAF1	ATP synthase mitochondrial F1 complex assembly factor 1	1	true	Known mitochondrial	true	true
+ENSG00000171953	91647	ATPAF2	ATP synthase mitochondrial F1 complex assembly factor 2	17	true	Known mitochondrial	true	false
+ENSG00000204842	6311	ATXN2	ataxin 2	12	true	Known NOT mitochondrial	false	false
+ENSG00000148090	549	AUH	AU RNA binding methylglutaconyl-CoA hydratase	9	true	Known mitochondrial	true	false
+ENSG00000175756	54998	AURKAIP1	aurora kinase A interacting protein 1	1	true	Known mitochondrial	true	true
+ENSG00000002330	572	BAD	BCL2 associated agonist of cell death	11	true	Known mitochondrial	true	true
+ENSG00000030110	578	BAK1	BCL2 antagonist/killer 1	6	true	Known mitochondrial	true	false
+ENSG00000087088	581	BAX	BCL2 associated X, apoptosis regulator	19	true	Known mitochondrial	true	false
+ENSG00000105552	587	BCAT2	branched chain amino acid transaminase 2	19	true	Known mitochondrial	true	false
+ENSG00000248098	593	BCKDHA	branched chain keto acid dehydrogenase E1, alpha polypeptide	19	true	Known mitochondrial	true	false
+ENSG00000083123	594	BCKDHB	branched chain keto acid dehydrogenase E1 subunit beta	6	true	Known mitochondrial	true	false
+ENSG00000103507	10295	BCKDK	branched chain ketoacid dehydrogenase kinase	16	true	Known mitochondrial	true	true
+ENSG00000171791	596	BCL2	BCL2, apoptosis regulator	18	true	Known mitochondrial	true	false
+ENSG00000171552	598	BCL2L1	BCL2 like 1	20	true	Known mitochondrial	true	true
+ENSG00000099968	23786	BCL2L13	BCL2 like 13	22	true	Known mitochondrial	true	true
+ENSG00000129473		BCL2L2	BCL2 like 2	14	true	Predicted NOT mitochondrial	true	false
+ENSG00000074582	617	BCS1L	BCS1 homolog, ubiquinol-cytochrome c reductase complex chaperone	2	true	Known mitochondrial	true	false
+ENSG00000161267		BDH1	3-hydroxybutyrate dehydrogenase 1	3	true	Known mitochondrial	true	true
+ENSG00000015475	637	BID	BH3 interacting domain death agonist	22	true	Predicted NOT mitochondrial	true	false
+ENSG00000135441	2647	BLOC1S1	biogenesis of lysosomal organelles complex 1 subunit 1	12	true	Known mitochondrial	true	false
+ENSG00000176171	664	BNIP3	BCL2 interacting protein 3	10	true	Known mitochondrial	true	false
+ENSG00000104765	665	BNIP3L	BCL2 interacting protein 3 like	8	true	Known mitochondrial	true	true
+ENSG00000178096	51027	BOLA1	bolA family member 1	1	true	Predicted mitochondrial	true	false
+ENSG00000163170	388962	BOLA3	bolA family member 3	2	true	Known mitochondrial	true	false
+ENSG00000137274	670	BPHL	biphenyl hydrolase like	6	true	Predicted mitochondrial	true	true
+ENSG00000139637		C12orf10	chromosome 12 open reading frame 10	12	true	Known mitochondrial	true	false
+ENSG00000130921	91574	C12orf65	chromosome 12 open reading frame 65	12	true	Known mitochondrial	true	true
+ENSG00000169609	123207	C15orf40	chromosome 15 open reading frame 40	15	true	Predicted NOT mitochondrial	false	false
+ENSG00000166920	84419	C15orf48	chromosome 15 open reading frame 48	15	true	Predicted NOT mitochondrial	true	false
+ENSG00000189227	145853	C15orf61	chromosome 15 open reading frame 61	15	true	Known mitochondrial	false	false
+ENSG00000174109	283951	C16orf91	chromosome 16 open reading frame 91	16	true	Known mitochondrial	false	false
+ENSG00000174917	125988	C19orf70	chromosome 19 open reading frame 70	19	true	Known mitochondrial	true	true
+ENSG00000108561	708	C1QBP	complement C1q binding protein	17	true	Known mitochondrial	true	true
+ENSG00000101084	55969	C20orf24	chromosome 20 open reading frame 24	20	true	Predicted NOT mitochondrial	false	false
+ENSG00000160221	8209	C21orf33	chromosome 21 open reading frame 33	21	true	Known mitochondrial	true	true
+ENSG00000178074	205327	C2orf69	chromosome 2 open reading frame 69	2	true	Known mitochondrial	false	false
+ENSG00000174928	285315	C3orf33	chromosome 3 open reading frame 33	3	true	Known mitochondrial	false	false
+ENSG00000164241	401207	C5orf63	chromosome 5 open reading frame 63	5	true	Predicted mitochondrial	false	true
+ENSG00000204564		C6orf136	chromosome 6 open reading frame 136	6	true	Predicted mitochondrial	false	false
+ENSG00000130349	51250	C6orf203	chromosome 6 open reading frame 203	6	true	Predicted mitochondrial	true	false
+ENSG00000213563	414919	C8orf82	chromosome 8 open reading frame 82	8	true	Known mitochondrial	false	false
+ENSG00000174990	763	CA5A	carbonic anhydrase 5A	16	true	Known mitochondrial	true	false
+ENSG00000169239	11238	CA5B	carbonic anhydrase 5B	X	true	Known mitochondrial	true	true
+ENSG00000187796	64170	CARD9	caspase recruitment domain family member 9	9	true	Predicted NOT mitochondrial	false	false
+ENSG00000134905	79587	CARS2	cysteinyl-tRNA synthetase 2, mitochondrial	13	true	Known mitochondrial	true	true
+ENSG00000064012	841	CASP8	caspase 8	2	true	Predicted NOT mitochondrial	true	false
+ENSG00000121691	847	CAT	catalase	11	true	Probable contaminant	true	false
+ENSG00000159231	874	CBR3	carbonyl reductase 3	21	true	Predicted NOT mitochondrial	false	false
+ENSG00000145439	84869	CBR4	carbonyl reductase 4	4	true	Known mitochondrial	true	false
+ENSG00000164366	133957	CCDC127	coiled-coil domain containing 127	5	true	Known mitochondrial	false	false
+ENSG00000164051	79714	CCDC51	coiled-coil domain containing 51	3	true	Known mitochondrial	false	true
+ENSG00000160124	131076	CCDC58	coiled-coil domain containing 58	3	true	Known mitochondrial	true	true
+ENSG00000137500	60492	CCDC90B	coiled-coil domain containing 90B	11	true	Known mitochondrial	true	true
+ENSG00000135624	10574	CCT7	chaperonin containing TCP1 subunit 7	2	true	Predicted mitochondrial	false	false
+ENSG00000158402	995	CDC25C	cell division cycle 25C	5	true	Known mitochondrial	false	false
+ENSG00000121289	84902	CEP89	centrosomal protein 89	19	true	Known mitochondrial	true	false
+ENSG00000172586	118487	CHCHD1	coiled-coil-helix-coiled-coil-helix domain containing 1	10	true	Known mitochondrial	true	true
+ENSG00000250479		CHCHD10	coiled-coil-helix-coiled-coil-helix domain containing 10	22	true	Known mitochondrial	true	true
+ENSG00000106153	51142	CHCHD2	coiled-coil-helix-coiled-coil-helix domain containing 2	7	true	Known mitochondrial	true	true
+ENSG00000106554	54927	CHCHD3	coiled-coil-helix-coiled-coil-helix domain containing 3	7	true	Known mitochondrial	true	true
+ENSG00000163528	131474	CHCHD4	coiled-coil-helix-coiled-coil-helix domain containing 4	3	true	Known mitochondrial	true	true
+ENSG00000125611	84269	CHCHD5	coiled-coil-helix-coiled-coil-helix domain containing 5	2	true	Known mitochondrial	true	true
+ENSG00000159685	84303	CHCHD6	coiled-coil-helix-coiled-coil-helix domain containing 6	3	true	Known mitochondrial	true	true
+ENSG00000170791	79145	CHCHD7	coiled-coil-helix-coiled-coil-helix domain containing 7	8	true	Predicted mitochondrial	true	false
+ENSG00000016391	55349	CHDH	choline dehydrogenase	3	true	Known mitochondrial	true	false
+ENSG00000111666	56994	CHPT1	choline phosphotransferase 1	12	true	Predicted NOT mitochondrial	false	false
+ENSG00000122873	55847	CISD1	CDGSH iron sulfur domain 1	10	true	Known mitochondrial	true	true
+ENSG00000145354	493856	CISD2	CDGSH iron sulfur domain 2	4	true	Known mitochondrial	true	false
+ENSG00000277972		CISD3	CDGSH iron sulfur domain 3	17	true	Known mitochondrial	true	false
+ENSG00000223572		CKMT1A	creatine kinase, mitochondrial 1A	15	true	Known mitochondrial	true	false
+ENSG00000237289		CKMT1B	creatine kinase, mitochondrial 1B	15	true	Known mitochondrial	true	false
+ENSG00000131730	1160	CKMT2	creatine kinase, mitochondrial 2	5	true	Known mitochondrial	true	false
+ENSG00000169504	25932	CLIC4	chloride intracellular channel 4	1	true	Known mitochondrial	true	false
+ENSG00000162129	81570	CLPB	ClpB homolog, mitochondrial AAA ATPase chaperonin	11	true	Known mitochondrial	true	false
+ENSG00000125656	8192	CLPP	caseinolytic mitochondrial matrix peptidase proteolytic subunit	19	true	Known mitochondrial	true	true
+ENSG00000166855	10845	CLPX	caseinolytic mitochondrial matrix peptidase chaperone subunit	15	true	Known mitochondrial	true	true
+ENSG00000125246	171425	CLYBL	citrate lyase beta like	13	true	Known mitochondrial	true	false
+ENSG00000187118	152100	CMC1	C-X9-C motif containing 1	3	true	Known mitochondrial	true	false
+ENSG00000103121	56942	CMC2	C-X9-C motif containing 2	16	true	Known mitochondrial	true	true
+ENSG00000182712	100272147	CMC4	C-X9-C motif containing 4	X	true	Predicted mitochondrial	true	true
+ENSG00000134326	129607	CMPK2	cytidine/uridine monophosphate kinase 2	2	true	Known mitochondrial	true	true
+ENSG00000106603	55744	COA1	cytochrome c oxidase assembly factor 1 homolog	7	true	Known mitochondrial	true	true
+ENSG00000183978	28958	COA3	cytochrome c oxidase assembly factor 3	17	true	Known mitochondrial	true	true
+ENSG00000181924	51287	COA4	cytochrome c oxidase assembly factor 4 homolog	11	true	Known mitochondrial	true	true
+ENSG00000183513	493753	COA5	cytochrome c oxidase assembly factor 5	2	true	Known mitochondrial	true	true
+ENSG00000168275	388753	COA6	cytochrome c oxidase assembly factor 6	1	true	Known mitochondrial	true	true
+ENSG00000162377	65260	COA7	cytochrome c oxidase assembly factor 7 (putative)	1	true	Known mitochondrial	true	true
+ENSG00000068120	80347	COASY	Coenzyme A synthase	17	true	Known mitochondrial	true	false
+ENSG00000093010	1312	COMT	catechol-O-methyltransferase	22	true	Predicted mitochondrial	false	false
+ENSG00000165644	118881	COMTD1	catechol-O-methyltransferase domain containing 1	10	true	Known mitochondrial	false	false
+ENSG00000135469	93058	COQ10A	coenzyme Q10A	12	true	Known mitochondrial	true	false
+ENSG00000115520	80219	COQ10B	coenzyme Q10B	2	true	Known mitochondrial	true	false
+ENSG00000173085		COQ2	coenzyme Q2, polyprenyltransferase	4	true	Known mitochondrial	true	false
+ENSG00000132423	51805	COQ3	coenzyme Q3, methyltransferase	6	true	Known mitochondrial	true	true
+ENSG00000167113	51117	COQ4	coenzyme Q4	9	true	Known mitochondrial	true	true
+ENSG00000110871	84274	COQ5	coenzyme Q5, methyltransferase	12	true	Known mitochondrial	true	true
+ENSG00000119723	51004	COQ6	coenzyme Q6, monooxygenase	14	true	Known mitochondrial	true	false
+ENSG00000167186	10229	COQ7	coenzyme Q7, hydroxylase	16	true	Known mitochondrial	true	false
+ENSG00000163050	56997	COQ8A	coenzyme Q8A	1	true	Known mitochondrial	true	true
+ENSG00000123815	79934	COQ8B	coenzyme Q8B	19	true	Known mitochondrial	true	true
+ENSG00000088682	57017	COQ9	coenzyme Q9	16	true	Known mitochondrial	true	false
+ENSG00000006695	1352	COX10	COX10, heme A:farnesyltransferase cytochrome c oxidase assembly factor	17	true	Known mitochondrial	true	true
+ENSG00000166260	1353	COX11	COX11, cytochrome c oxidase copper chaperone	17	true	Known mitochondrial	true	false
+ENSG00000178449	84987	COX14	COX14, cytochrome c oxidase assembly factor	12	true	Known mitochondrial	true	true
+ENSG00000014919	1355	COX15	COX15, cytochrome c oxidase assembly homolog	10	true	Known mitochondrial	true	true
+ENSG00000133983	51241	COX16	COX16, cytochrome c oxidase assembly homolog	14	true	Known mitochondrial	true	true
+ENSG00000138495	10063	COX17	COX17, cytochrome c oxidase copper chaperone	3	true	Known mitochondrial	true	true
+ENSG00000163626	285521	COX18	COX18, cytochrome c oxidase assembly factor	4	true	Known mitochondrial	true	false
+ENSG00000240230	90639	COX19	COX19, cytochrome c oxidase assembly factor	7	true	Known mitochondrial	true	false
+ENSG00000203667	116228	COX20	COX20, cytochrome c oxidase assembly factor	1	true	Known mitochondrial	true	true
+ENSG00000131143	1327	COX4I1	cytochrome c oxidase subunit 4I1	16	true	Known mitochondrial	true	true
+ENSG00000131055	84701	COX4I2	cytochrome c oxidase subunit 4I2	20	true	Known mitochondrial	true	false
+ENSG00000178741	9377	COX5A	cytochrome c oxidase subunit 5A	15	true	Known mitochondrial	true	false
+ENSG00000135940	1329	COX5B	cytochrome c oxidase subunit 5B	2	true	Known mitochondrial	true	true
+ENSG00000111775	1337	COX6A1	cytochrome c oxidase subunit 6A1	12	true	Known mitochondrial	true	true
+ENSG00000156885	1339	COX6A2	cytochrome c oxidase subunit 6A2	16	true	Known mitochondrial	true	false
+ENSG00000126267	1340	COX6B1	cytochrome c oxidase subunit 6B1	19	true	Known mitochondrial	true	true
+ENSG00000160471	125965	COX6B2	cytochrome c oxidase subunit 6B2	19	true	Known mitochondrial	true	false
+ENSG00000164919	1345	COX6C	cytochrome c oxidase subunit 6C	8	true	Known mitochondrial	true	true
+ENSG00000161281	1346	COX7A1	cytochrome c oxidase subunit 7A1	19	true	Known mitochondrial	true	false
+ENSG00000112695	1347	COX7A2	cytochrome c oxidase subunit 7A2	6	true	Known mitochondrial	true	false
+ENSG00000115944	9167	COX7A2L	cytochrome c oxidase subunit 7A2 like	2	true	Known mitochondrial	true	true
+ENSG00000131174	1349	COX7B	cytochrome c oxidase subunit 7B	X	true	Known mitochondrial	true	false
+ENSG00000127184	1350	COX7C	cytochrome c oxidase subunit 7C	5	true	Known mitochondrial	true	false
+ENSG00000176340	1351	COX8A	cytochrome c oxidase subunit 8A	11	true	Known mitochondrial	true	false
+ENSG00000187581		COX8C	cytochrome c oxidase subunit 8C	14	true	Known mitochondrial	true	false
+ENSG00000080819	1371	CPOX	coproporphyrinogen oxidase	3	true	Known mitochondrial	true	true
+ENSG00000021826	1373	CPS1	carbamoyl-phosphate synthase 1	2	true	Known mitochondrial	true	false
+ENSG00000110090	1374	CPT1A	carnitine palmitoyltransferase 1A	11	true	Known mitochondrial	true	true
+ENSG00000205560	1375	CPT1B	carnitine palmitoyltransferase 1B	22	true	Known mitochondrial	true	false
+ENSG00000169169	126129	CPT1C	carnitine palmitoyltransferase 1C	19	true	Predicted NOT mitochondrial	true	false
+ENSG00000157184	1376	CPT2	carnitine palmitoyltransferase 2	1	true	Known mitochondrial	true	true
+ENSG00000095321	1384	CRAT	carnitine O-acetyltransferase	9	true	Known mitochondrial	true	false
+ENSG00000088766	54675	CRLS1	cardiolipin synthase 1	20	true	Known mitochondrial	true	false
+ENSG00000005469	54677	CROT	carnitine O-octanoyltransferase	7	true	Probable contaminant	false	false
+ENSG00000008405	1407	CRY1	cryptochrome circadian regulator 1	12	true	Known mitochondrial	true	false
+ENSG00000116791	1429	CRYZ	crystallin zeta	1	true	Known mitochondrial	false	false
+ENSG00000062485	1431	CS	citrate synthase	12	true	Known mitochondrial	true	true
+ENSG00000166347	1528	CYB5A	cytochrome b5 type A	18	true	Predicted mitochondrial	true	false
+ENSG00000103018	80777	CYB5B	cytochrome b5 type B	16	true	Known mitochondrial	true	false
+ENSG00000166394	51700	CYB5R2	cytochrome b5 reductase 2	11	true	Predicted NOT mitochondrial	false	false
+ENSG00000100243	1727	CYB5R3	cytochrome b5 reductase 3	22	true	Known mitochondrial	true	false
+ENSG00000179091	1537	CYC1	cytochrome c1	8	true	Known mitochondrial	true	true
+ENSG00000172115	54205	CYCS	cytochrome c, somatic	7	true	Known mitochondrial	true	true
+ENSG00000140459	1583	CYP11A1	cytochrome P450 family 11 subfamily A member 1	15	true	Known mitochondrial	true	false
+ENSG00000179142	1585	CYP11B2	cytochrome P450 family 11 subfamily B member 2	8	true	Known mitochondrial	true	false
+ENSG00000019186	1591	CYP24A1	cytochrome P450 family 24 subfamily A member 1	20	true	Known mitochondrial	true	true
+ENSG00000135929	1593	CYP27A1	cytochrome P450 family 27 subfamily A member 1	2	true	Known mitochondrial	true	true
+ENSG00000111012	1594	CYP27B1	cytochrome P450 family 27 subfamily B member 1	12	true	Known mitochondrial	true	false
+ENSG00000180902	728294	D2HGDH	D-2-hydroxyglutarate dehydrogenase	2	true	Known mitochondrial	true	true
+ENSG00000132676	7818	DAP3	death associated protein 3	1	true	Known mitochondrial	true	true
+ENSG00000117593	55157	DARS2	aspartyl-tRNA synthetase 2, mitochondrial	1	true	Known mitochondrial	true	true
+ENSG00000155368	1622	DBI	diazepam binding inhibitor, acyl-CoA binding protein	2	true	Known mitochondrial	false	false
+ENSG00000137992	1629	DBT	dihydrolipoamide branched chain transacylase E2	1	true	Known mitochondrial	true	true
+ENSG00000172992	79877	DCAKD	dephospho-CoA kinase domain containing	17	true	Predicted mitochondrial	false	false
+ENSG00000169738	51181	DCXR	dicarbonyl and L-xylulose reductase	17	true	Known mitochondrial	false	false
+ENSG00000153904	23576	DDAH1	dimethylarginine dimethylaminohydrolase 1	1	true	Predicted NOT mitochondrial	false	false
+ENSG00000182810	55794	DDX28	DEAD-box helicase 28	16	true	Known mitochondrial	true	true
+ENSG00000104325	1666	DECR1	2,4-dienoyl-CoA reductase 1	8	true	Known mitochondrial	true	true
+ENSG00000165507	11067	DEPP1	DEPP1, autophagy regulator	10	true	Known mitochondrial	true	false
+ENSG00000133943	80017	DGLUCY	D-glutamate cyclase	14	true	Known mitochondrial	true	false
+ENSG00000114956	1716	DGUOK	deoxyguanosine kinase	2	true	Known mitochondrial	true	false
+ENSG00000116133	1718	DHCR24	24-dehydrocholesterol reductase	1	true	Predicted NOT mitochondrial	false	false
+ENSG00000102967	1723	DHODH	dihydroorotate dehydrogenase (quinone)	16	true	Known mitochondrial	true	true
+ENSG00000157379	115817	DHRS1	dehydrogenase/reductase 1	14	true	Predicted mitochondrial	false	false
+ENSG00000157326	10901	DHRS4	dehydrogenase/reductase 4	14	true	Predicted mitochondrial	true	false
+ENSG00000109016	25979	DHRS7B	dehydrogenase/reductase 7B	17	true	Predicted mitochondrial	false	false
+ENSG00000169084	207063	DHRSX	dehydrogenase/reductase X-linked	X	true	Predicted NOT mitochondrial	false	false
+ENSG00000181192	55526	DHTKD1	dehydrogenase E1 and transketolase domain containing 1	10	true	Known mitochondrial	true	true
+ENSG00000132153	22907	DHX30	DExH-box helicase 30	3	true	Known mitochondrial	true	true
+ENSG00000184047	56616	DIABLO	diablo IAP-binding mitochondrial protein	12	true	Known mitochondrial	true	true
+ENSG00000150768	1737	DLAT	dihydrolipoamide S-acetyltransferase	11	true	Known mitochondrial	true	true
+ENSG00000091140	1738	DLD	dihydrolipoamide dehydrogenase	7	true	Known mitochondrial	true	true
+ENSG00000119689	1743	DLST	dihydrolipoamide S-succinyltransferase	14	true	Known mitochondrial	true	false
+ENSG00000105341	55101	DMAC2	distal membrane arm assembly complex 2	19	true	Known mitochondrial	true	true
+ENSG00000132837	29958	DMGDH	dimethylglycine dehydrogenase	5	true	Known mitochondrial	true	true
+ENSG00000104936	1760	DMPK	DM1 protein kinase	19	true	Known mitochondrial	true	false
+ENSG00000138346	1763	DNA2	DNA replication helicase/nuclease 2	10	true	Known mitochondrial	true	true
+ENSG00000103423		DNAJA3	DnaJ heat shock protein family (Hsp40) member A3	16	true	Known mitochondrial	true	true
+ENSG00000007923	55735	DNAJC11	DnaJ heat shock protein family (Hsp40) member C11	1	true	Known mitochondrial	true	false
+ENSG00000120675	29103	DNAJC15	DnaJ heat shock protein family (Hsp40) member C15	13	true	Known mitochondrial	true	false
+ENSG00000205981	131118	DNAJC19	DnaJ heat shock protein family (Hsp40) member C19	3	true	Known mitochondrial	true	false
+ENSG00000177692		DNAJC28	DnaJ heat shock protein family (Hsp40) member C28	21	true	Predicted mitochondrial	false	false
+ENSG00000176410	84277	DNAJC30	DnaJ heat shock protein family (Hsp40) member C30	7	true	Known mitochondrial	false	false
+ENSG00000110011	3338	DNAJC4	DnaJ heat shock protein family (Hsp40) member C4	11	true	Predicted mitochondrial	false	false
+ENSG00000087470	10059	DNM1L	dynamin 1 like	12	true	Known mitochondrial	true	false
+ENSG00000168393	1841	DTYMK	deoxythymidylate kinase	2	true	Predicted mitochondrial	true	true
+ENSG00000167264	54920	DUS2	dihydrouridine synthase 2	16	true	Predicted mitochondrial	false	false
+ENSG00000133878	78986	DUSP26	dual specificity phosphatase 26	8	true	Predicted mitochondrial	false	false
+ENSG00000128951	1854	DUT	deoxyuridine triphosphatase	15	true	Known mitochondrial	true	false
+ENSG00000103356	124454	EARS2	glutamyl-tRNA synthetase 2, mitochondrial	16	true	Known mitochondrial	true	true
+ENSG00000104823		ECH1	enoyl-CoA hydratase 1	19	true	Known mitochondrial	true	true
+ENSG00000093144	55862	ECHDC1	ethylmalonyl-CoA decarboxylase 1	6	true	Known mitochondrial	true	false
+ENSG00000121310	55268	ECHDC2	enoyl-CoA hydratase domain containing 2	1	true	Known mitochondrial	true	true
+ENSG00000134463	79746	ECHDC3	enoyl-CoA hydratase domain containing 3	10	true	Known mitochondrial	true	true
+ENSG00000127884	1892	ECHS1	enoyl-CoA hydratase, short chain 1	10	true	Known mitochondrial	true	true
+ENSG00000167969	1632	ECI1	enoyl-CoA delta isomerase 1	16	true	Known mitochondrial	true	false
+ENSG00000198721	10455	ECI2	enoyl-CoA delta isomerase 2	6	true	Known mitochondrial	true	false
+ENSG00000130159	51295	ECSIT	ECSIT signalling integrator	19	true	Known mitochondrial	true	false
+ENSG00000132394	60678	EEFSEC	eukaryotic elongation factor, selenocysteine-tRNA specific	3	true	Predicted NOT mitochondrial	false	false
+ENSG00000115468	80303	EFHD1	EF-hand domain family member D1	2	true	Known mitochondrial	true	false
+ENSG00000113790	1962	EHHADH	enoyl-CoA hydratase and 3-hydroxyacyl CoA dehydrogenase	3	true	Probable contaminant	false	false
+ENSG00000006744	60528	ELAC2	elaC ribonuclease Z 2	17	true	Known mitochondrial	true	false
+ENSG00000104412	9694	EMC2	ER membrane protein complex subunit 2	8	true	Predicted mitochondrial	false	false
+ENSG00000167136	2021	ENDOG	endonuclease G	9	true	Known mitochondrial	true	false
+ENSG00000120915		EPHX2	epoxide hydrolase 2	8	true	Predicted NOT mitochondrial	false	false
+ENSG00000132591	26284	ERAL1	Era like 12S mitochondrial rRNA chaperone 1	17	true	Known mitochondrial	true	true
+ENSG00000140374	2108	ETFA	electron transfer flavoprotein alpha subunit	15	true	Known mitochondrial	true	true
+ENSG00000105379	2109	ETFB	electron transfer flavoprotein beta subunit	19	true	Known mitochondrial	true	true
+ENSG00000171503	2110	ETFDH	electron transfer flavoprotein dehydrogenase	4	true	Known mitochondrial	true	false
+ENSG00000205707	144363	ETFRF1	electron transfer flavoprotein regulatory factor 1	12	true	Predicted mitochondrial	true	false
+ENSG00000105755	23474	ETHE1	ETHE1, persulfide dioxygenase	19	true	Known mitochondrial	true	true
+ENSG00000157036	9941	EXOG	exo/endonuclease G	3	true	Known mitochondrial	true	false
+ENSG00000163586	2168	FABP1	fatty acid binding protein 1	2	true	Predicted NOT mitochondrial	false	false
+ENSG00000180185	81889	FAHD1	fumarylacetoacetate hydrolase domain containing 1	16	true	Known mitochondrial	true	true
+ENSG00000115042	51011	FAHD2A	fumarylacetoacetate hydrolase domain containing 2A	2	true	Known mitochondrial	false	false
+ENSG00000035141	84908	FAM136A	family with sequence similarity 136 member A	2	true	Known mitochondrial	false	true
+ENSG00000114023	26355	FAM162A	family with sequence similarity 162 member A	3	true	Known mitochondrial	true	true
+ENSG00000222011	222234	FAM185A	family with sequence similarity 185 member A	7	true	Known mitochondrial	false	false
+ENSG00000177150	125228	FAM210A	family with sequence similarity 210 member A	18	true	Predicted mitochondrial	true	true
+ENSG00000124098	116151	FAM210B	family with sequence similarity 210 member B	20	true	Known mitochondrial	true	false
+ENSG00000122378	84293	FAM213A	family with sequence similarity 213 member A	10	true	Predicted mitochondrial	false	false
+ENSG00000145982	10667	FARS2	phenylalanyl-tRNA synthetase 2, mitochondrial	6	true	Known mitochondrial	true	false
+ENSG00000169710	2194	FASN	fatty acid synthase	17	true	Known NOT mitochondrial	false	false
+ENSG00000164896	10922	FASTK	Fas activated serine/threonine kinase	7	true	Known mitochondrial	true	true
+ENSG00000138399	79675	FASTKD1	FAST kinase domains 1	2	true	Known mitochondrial	true	false
+ENSG00000118246	22868	FASTKD2	FAST kinase domains 2	2	true	Known mitochondrial	true	true
+ENSG00000124279	79072	FASTKD3	FAST kinase domains 3	5	true	Known mitochondrial	true	true
+ENSG00000215251	60493	FASTKD5	FAST kinase domains 5	20	true	Known mitochondrial	true	false
+ENSG00000112234	26235	FBXL4	F-box and leucine rich repeat protein 4	6	true	Known mitochondrial	true	false
+ENSG00000160752	2224	FDPS	farnesyl diphosphate synthase	1	true	Predicted mitochondrial	false	false
+ENSG00000137714	2230	FDX1	ferredoxin 1	11	true	Known mitochondrial	true	true
+ENSG00000267673	112812	FDX2	ferredoxin 2	19	true	Known mitochondrial	true	false
+ENSG00000161513	2232	FDXR	ferredoxin reductase	17	true	Known mitochondrial	true	true
+ENSG00000066926	2235	FECH	ferrochelatase	18	true	Known mitochondrial	true	false
+ENSG00000091483	2271	FH	fumarate hydratase	1	true	Known mitochondrial	true	true
+ENSG00000189283	2272	FHIT	fragile histidine triad	3	true	Predicted mitochondrial	true	false
+ENSG00000214253	51024	FIS1	fission, mitochondrial 1	7	true	Known mitochondrial	true	true
+ENSG00000141756	60681	FKBP10	FK506 binding protein 10	17	true	Known mitochondrial	false	false
+ENSG00000105701	23770	FKBP8	FK506 binding protein 8	19	true	Known mitochondrial	true	true
+ENSG00000160688	80308	FLAD1	flavin adenine dinucleotide synthetase 1	1	true	Known mitochondrial	true	false
+ENSG00000164898	154791	FMC1	formation of mitochondrial complex V assembly factor 1 homolog	7	true	Known mitochondrial	true	true
+ENSG00000110074	55572	FOXRED1	FAD dependent oxidoreductase domain containing 1	11	true	Known mitochondrial	true	true
+ENSG00000136877	2356	FPGS	folylpolyglutamate synthase	9	true	Known mitochondrial	true	false
+ENSG00000167996	2495	FTH1	ferritin heavy chain 1	11	true	Predicted mitochondrial	false	false
+ENSG00000181867	94033	FTMT	ferritin mitochondrial	5	true	Known mitochondrial	true	false
+ENSG00000069509	139341	FUNDC1	FUN14 domain containing 1	X	true	Known mitochondrial	true	false
+ENSG00000165775	65991	FUNDC2	FUN14 domain containing 2	X	true	Known mitochondrial	true	false
+ENSG00000165060	2395	FXN	frataxin	9	true	Known mitochondrial	true	true
+ENSG00000179271	90480	GADD45GIP1	GADD45G interacting protein 1	19	true	Known mitochondrial	true	true
+ENSG00000111640	2597	GAPDH	glyceraldehyde-3-phosphate dehydrogenase	12	true	Predicted mitochondrial	false	false
+ENSG00000106105	2617	GARS	glycyl-tRNA synthetase	7	true	Known mitochondrial	true	false
+ENSG00000059691	5188	GATB	glutamyl-tRNA amidotransferase subunit B	4	true	Known mitochondrial	true	true
+ENSG00000171766	2628	GATM	glycine amidinotransferase	15	true	Known mitochondrial	true	true
+ENSG00000100116	23464	GCAT	glycine C-acetyltransferase	22	true	Known mitochondrial	true	true
+ENSG00000105607	2639	GCDH	glutaryl-CoA dehydrogenase	19	true	Known mitochondrial	true	true
+ENSG00000140905	2653	GCSH	glycine cleavage system protein H	16	true	Known mitochondrial	true	false
+ENSG00000104381	54332	GDAP1	ganglioside induced differentiation associated protein 1	8	true	Known mitochondrial	true	true
+ENSG00000127554	2671	GFER	growth factor, augmenter of liver regeneration	16	true	Known mitochondrial	true	true
+ENSG00000168827	85476	GFM1	G elongation factor mitochondrial 1	3	true	Known mitochondrial	true	true
+ENSG00000164347	84340	GFM2	G elongation factor mitochondrial 2	5	true	Known mitochondrial	true	false
+ENSG00000165678	27069	GHITM	growth hormone inducible transmembrane protein	10	true	Known mitochondrial	true	true
+ENSG00000198814	2710	GK	glycerol kinase	X	true	Known mitochondrial	true	false
+ENSG00000178445	2731	GLDC	glycine decarboxylase	9	true	Known mitochondrial	true	true
+ENSG00000167699	51031	GLOD4	glyoxalase domain containing 4	17	true	Known mitochondrial	true	false
+ENSG00000023572	51022	GLRX2	glutaredoxin 2	1	true	Known mitochondrial	true	false
+ENSG00000182512	51218	GLRX5	glutaredoxin 5	14	true	Known mitochondrial	true	true
+ENSG00000115419	2744	GLS	glutaminase	2	true	Known mitochondrial	true	true
+ENSG00000135423	27165	GLS2	glutaminase 2	12	true	Known mitochondrial	true	false
+ENSG00000148672	2746	GLUD1	glutamate dehydrogenase 1	10	true	Known mitochondrial	true	true
+ENSG00000149124	10249	GLYAT	glycine-N-acyltransferase	11	true	Known mitochondrial	true	false
+ENSG00000168237	132158	GLYCTK	glycerate kinase	3	true	Known mitochondrial	true	false
+ENSG00000174021	2787	GNG5	G protein subunit gamma 5	1	true	Predicted mitochondrial	false	false
+ENSG00000113384	64083	GOLPH3	golgi phosphoprotein 3	5	true	Known mitochondrial	true	false
+ENSG00000125166	2806	GOT2	glutamic-oxaloacetic transaminase 2	16	true	Known mitochondrial	true	false
+ENSG00000119927	57678	GPAM	glycerol-3-phosphate acyltransferase, mitochondrial	10	true	Known mitochondrial	true	true
+ENSG00000115159	2820	GPD2	glycerol-3-phosphate dehydrogenase 2	2	true	Known mitochondrial	true	false
+ENSG00000105220	2821	GPI	glucose-6-phosphate isomerase	19	true	Known NOT mitochondrial	false	false
+ENSG00000166123	84706	GPT2	glutamic--pyruvic transaminase 2	16	true	Known mitochondrial	true	true
+ENSG00000233276	2876	GPX1	glutathione peroxidase 1	3	true	Known mitochondrial	true	false
+ENSG00000167468	2879	GPX4	glutathione peroxidase 4	19	true	Known mitochondrial	true	true
+ENSG00000137106	9380	GRHPR	glyoxylate and hydroxypyruvate reductase	9	true	Known mitochondrial	false	false
+ENSG00000109519	80273	GRPEL1	GrpE like 1, mitochondrial	4	true	Known mitochondrial	true	true
+ENSG00000164284	134266	GRPEL2	GrpE like 2, mitochondrial	5	true	Known mitochondrial	true	true
+ENSG00000132463	2926	GRSF1	G-rich RNA sequence binding factor 1	4	true	Known mitochondrial	true	true
+ENSG00000104687	2936	GSR	glutathione-disulfide reductase	8	true	Known mitochondrial	true	false
+ENSG00000197448	373156	GSTK1	glutathione S-transferase kappa 1	7	true	Known mitochondrial	true	false
+ENSG00000148834	9446	GSTO1	glutathione S-transferase omega 1	10	true	Predicted NOT mitochondrial	false	false
+ENSG00000100577	2954	GSTZ1	glutathione S-transferase zeta 1	14	true	Known mitochondrial	true	false
+ENSG00000105793	85865	GTPBP10	GTP binding protein 10	7	true	Known mitochondrial	false	false
+ENSG00000130299	84705	GTPBP3	GTP binding protein 3, mitochondrial	19	true	Known mitochondrial	true	true
+ENSG00000178605	8225	GTPBP6	GTP binding protein 6 (putative)	X	true	Known mitochondrial	false	false
+ENSG00000151806	60558	GUF1	GUF1 homolog, GTPase	4	true	Known mitochondrial	true	true
+ENSG00000143774	2987	GUK1	guanylate kinase 1	1	true	Known mitochondrial	false	false
+ENSG00000138796	3033	HADH	hydroxyacyl-CoA dehydrogenase	4	true	Known mitochondrial	true	true
+ENSG00000084754	3030	HADHA	hydroxyacyl-CoA dehydrogenase trifunctional multienzyme complex subunit alpha	2	true	Known mitochondrial	true	true
+ENSG00000138029	3032	HADHB	hydroxyacyl-CoA dehydrogenase trifunctional multienzyme complex subunit beta	2	true	Known mitochondrial	true	true
+ENSG00000063854	3029	HAGH	hydroxyacylglutathione hydrolase	16	true	Known mitochondrial	true	false
+ENSG00000116882	51179	HAO2	hydroxyacid oxidase 2	1	true	Predicted NOT mitochondrial	false	false
+ENSG00000112855	23438	HARS2	histidyl-tRNA synthetase 2, mitochondrial	5	true	Known mitochondrial	true	false
+ENSG00000004961	3052	HCCS	holocytochrome c synthase	X	true	Known mitochondrial	true	true
+ENSG00000119431	81932	HDHD3	haloacid dehalogenase like hydrolase domain containing 3	9	true	Known mitochondrial	false	false
+ENSG00000069998	27440	HDHD5	haloacid dehalogenase like hydrolase domain containing 5	22	true	Known mitochondrial	true	true
+ENSG00000013583	50865	HEBP1	heme binding protein 1	12	true	Known mitochondrial	false	false
+ENSG00000114735	51409	HEMK1	HemK methyltransferase family member 1	3	true	Predicted mitochondrial	true	false
+ENSG00000106049	11112	HIBADH	3-hydroxyisobutyrate dehydrogenase	7	true	Known mitochondrial	true	false
+ENSG00000198130	26275	HIBCH	3-hydroxyisobutyryl-CoA hydrolase	2	true	Known mitochondrial	true	true
+ENSG00000181061	25994	HIGD1A	HIG1 hypoxia inducible domain family member 1A	3	true	Known mitochondrial	true	true
+ENSG00000146066	192286	HIGD2A	HIG1 hypoxia inducible domain family member 2A	5	true	Known mitochondrial	true	true
+ENSG00000169567	3094	HINT1	histidine triad nucleotide binding protein 1	5	true	Predicted NOT mitochondrial	false	false
+ENSG00000137133	84681	HINT2	histidine triad nucleotide binding protein 2	9	true	Known mitochondrial	true	true
+ENSG00000111911	135114	HINT3	histidine triad nucleotide binding protein 3	6	true	Predicted NOT mitochondrial	false	true
+ENSG00000156515	3098	HK1	hexokinase 1	10	true	Known mitochondrial	true	true
+ENSG00000159399	3099	HK2	hexokinase 2	2	true	Known mitochondrial	true	false
+ENSG00000256269		HMBS	hydroxymethylbilane synthase	11	true	Predicted NOT mitochondrial	false	false
+ENSG00000117305	3155	HMGCL	3-hydroxymethyl-3-methylglutaryl-CoA lyase	1	true	Known mitochondrial	true	false
+ENSG00000134240	3158	HMGCS2	3-hydroxy-3-methylglutaryl-CoA synthase 2	1	true	Known mitochondrial	true	true
+ENSG00000241935	112817	HOGA1	4-hydroxy-2-oxoglutarate aldolase 1	10	true	Known mitochondrial	true	false
+ENSG00000100209	150274	HSCB	HscB mitochondrial iron-sulfur cluster cochaperone	22	true	Known mitochondrial	true	true
+ENSG00000072506	3028	HSD17B10	hydroxysteroid 17-beta dehydrogenase 10	X	true	Known mitochondrial	true	false
+ENSG00000133835	3295	HSD17B4	hydroxysteroid 17-beta dehydrogenase 4	5	true	Probable contaminant	false	false
+ENSG00000204228		HSD17B8	hydroxysteroid 17-beta dehydrogenase 8	6	true	Known mitochondrial	true	false
+ENSG00000103160	83693	HSDL1	hydroxysteroid dehydrogenase like 1	16	true	Known mitochondrial	true	false
+ENSG00000119471	84263	HSDL2	hydroxysteroid dehydrogenase like 2	9	true	Known mitochondrial	true	true
+ENSG00000113013	3313	HSPA9	heat shock protein family A (Hsp70) member 9	5	true	Known mitochondrial	true	true
+ENSG00000173641	27129	HSPB7	heat shock protein family B (small) member 7	1	true	Predicted NOT mitochondrial	false	false
+ENSG00000144381	3329	HSPD1	heat shock protein family D (Hsp60) member 1	2	true	Known mitochondrial	true	true
+ENSG00000115541	3336	HSPE1	heat shock protein family E (Hsp10) member 1	2	true	Known mitochondrial	true	false
+ENSG00000109854	10553	HTATIP2	HIV-1 Tat interactive protein 2	11	true	Predicted NOT mitochondrial	false	false
+ENSG00000115317	27429	HTRA2	HtrA serine peptidase 2	2	true	Known mitochondrial	true	true
+ENSG00000067704	55699	IARS2	isoleucyl-tRNA synthetase 2, mitochondrial	1	true	Known mitochondrial	true	true
+ENSG00000181873	200205	IBA57	IBA57, iron-sulfur cluster assembly	1	true	Known mitochondrial	true	true
+ENSG00000119912	3416	IDE	insulin degrading enzyme	10	true	Known mitochondrial	true	false
+ENSG00000138413	3417	IDH1	isocitrate dehydrogenase (NADP(+)) 1, cytosolic	2	true	Predicted mitochondrial	true	false
+ENSG00000182054	3418	IDH2	isocitrate dehydrogenase (NADP(+)) 2, mitochondrial	15	true	Known mitochondrial	true	true
+ENSG00000166411	3419	IDH3A	isocitrate dehydrogenase 3 (NAD(+)) alpha	15	true	Known mitochondrial	true	true
+ENSG00000101365	3420	IDH3B	isocitrate dehydrogenase 3 (NAD(+)) beta	20	true	Known mitochondrial	true	true
+ENSG00000067829	3421	IDH3G	isocitrate dehydrogenase 3 (NAD(+)) gamma	X	true	Known mitochondrial	true	true
+ENSG00000067064	3422	IDI1	isopentenyl-diphosphate delta isomerase 1	10	true	Predicted NOT mitochondrial	false	false
+ENSG00000165949	3429	IFI27	interferon alpha inducible protein 27	14	true	Known mitochondrial	true	false
+ENSG00000148950	196294	IMMP1L	inner mitochondrial membrane peptidase subunit 1	11	true	Known mitochondrial	true	false
+ENSG00000184903	83943	IMMP2L	inner mitochondrial membrane peptidase subunit 2	7	true	Known mitochondrial	true	true
+ENSG00000132305	10989	IMMT	inner membrane mitochondrial protein	2	true	Known mitochondrial	true	true
+ENSG00000135070	81689	ISCA1	iron-sulfur cluster assembly 1	9	true	Known mitochondrial	true	false
+ENSG00000165898	122961	ISCA2	iron-sulfur cluster assembly 2	14	true	Known mitochondrial	true	false
+ENSG00000136003	23479	ISCU	iron-sulfur cluster assembly enzyme	12	true	Known mitochondrial	true	false
+ENSG00000063241	79763	ISOC2	isochorismatase domain containing 2	19	true	Known mitochondrial	false	true
+ENSG00000128928	3712	IVD	isovaleryl-CoA dehydrogenase	15	true	Known mitochondrial	true	true
+ENSG00000065427	3735	KARS	lysyl-tRNA synthetase	16	true	Known mitochondrial	true	false
+ENSG00000149474	57325	KAT14	lysine acetyltransferase 14	20	true	Predicted NOT mitochondrial	false	false
+ENSG00000007202	9703	KIAA0100	KIAA0100	17	true	Predicted NOT mitochondrial	false	false
+ENSG00000081791	9812	KIAA0141	KIAA0141	5	true	Known mitochondrial	true	false
+ENSG00000100890	9692	KIAA0391	KIAA0391	14	true	Known mitochondrial	true	true
+ENSG00000054523	23095	KIF1B	kinesin family member 1B	1	true	Known mitochondrial	true	false
+ENSG00000117009	8564	KMO	kynurenine 3-monooxygenase	1	true	Known mitochondrial	true	false
+ENSG00000186081	3852	KRT5	keratin 5	12	true	Predicted mitochondrial	false	false
+ENSG00000137944	56267	KYAT3	kynurenine aminotransferase 3	1	true	Known mitochondrial	false	false
+ENSG00000087299	79944	L2HGDH	L-2-hydroxyglutarate dehydrogenase	14	true	Known mitochondrial	true	true
+ENSG00000103642	114294	LACTB	lactamase beta	15	true	Known mitochondrial	true	true
+ENSG00000147592	51110	LACTB2	lactamase beta 2	8	true	Predicted mitochondrial	true	false
+ENSG00000135862	3915	LAMC1	laminin subunit gamma 1	1	true	Known mitochondrial	false	false
+ENSG00000002549	51056	LAP3	leucine aminopeptidase 3	4	true	Known mitochondrial	false	false
+ENSG00000011376	23395	LARS2	leucyl-tRNA synthetase 2, mitochondrial	3	true	Known mitochondrial	true	true
+ENSG00000171989	92483	LDHAL6B	lactate dehydrogenase A like 6B	15	true	Probable contaminant	true	false
+ENSG00000111716	3945	LDHB	lactate dehydrogenase B	12	true	Probable contaminant	false	false
+ENSG00000166816	197257	LDHD	lactate dehydrogenase D	16	true	Known mitochondrial	true	false
+ENSG00000168924	3954	LETM1	leucine zipper and EF-hand containing transmembrane protein 1	4	true	Known mitochondrial	true	true
+ENSG00000165046	137994	LETM2	leucine zipper and EF-hand containing transmembrane protein 2	8	true	Known mitochondrial	true	false
+ENSG00000050426	25875	LETMD1	LETM1 domain containing 1	12	true	Predicted mitochondrial	true	true
+ENSG00000121897	11019	LIAS	lipoic acid synthetase	4	true	Known mitochondrial	true	true
+ENSG00000144182	51601	LIPT1	lipoyltransferase 1	2	true	Known mitochondrial	true	false
+ENSG00000175536	387787	LIPT2	lipoyl(octanoyl) transferase 2	11	true	Known mitochondrial	true	false
+ENSG00000196365	9361	LONP1	lon peptidase 1, mitochondrial	19	true	Known mitochondrial	true	true
+ENSG00000102910	83752	LONP2	lon peptidase 2, peroxisomal	16	true	Probable contaminant	false	false
+ENSG00000138095	10128	LRPPRC	leucine rich pentatricopeptide repeat containing	2	true	Known mitochondrial	true	true
+ENSG00000120992	10434	LYPLA1	lysophospholipase I	8	true	Predicted mitochondrial	false	false
+ENSG00000143353	127018	LYPLAL1	lysophospholipase like 1	1	true	Predicted mitochondrial	false	false
+ENSG00000102897	57149	LYRM1	LYR motif containing 1	16	true	Known mitochondrial	true	false
+ENSG00000083099	57226	LYRM2	LYR motif containing 2	6	true	Known mitochondrial	false	false
+ENSG00000214113	57128	LYRM4	LYR motif containing 4	6	true	Known mitochondrial	true	false
+ENSG00000186687	90624	LYRM7	LYR motif containing 7	5	true	Known mitochondrial	true	false
+ENSG00000232859	201229	LYRM9	LYR motif containing 9	17	true	Predicted mitochondrial	false	false
+ENSG00000133315	28992	MACROD1	MACRO domain containing 1	11	true	Known mitochondrial	false	false
+ENSG00000162972	79568	MAIP1	matrix AAA peptidase interacting protein 1	2	true	Known mitochondrial	true	true
+ENSG00000156928	115416	MALSU1	mitochondrial assembly of ribosomal large subunit 1	7	true	Known mitochondrial	true	true
+ENSG00000189221	4128	MAOA	monoamine oxidase A	X	true	Known mitochondrial	true	true
+ENSG00000069535	4129	MAOB	monoamine oxidase B	X	true	Known mitochondrial	true	true
+ENSG00000186205	64757	MARC1	mitochondrial amidoxime reducing component 1	1	true	Known mitochondrial	true	true
+ENSG00000117791	54996	MARC2	mitochondrial amidoxime reducing component 2	1	true	Known mitochondrial	true	false
+ENSG00000198060	54708	MARCH5	membrane associated ring-CH-type finger 5	10	true	Known mitochondrial	true	true
+ENSG00000247626	92935	MARS2	methionyl-tRNA synthetase 2, mitochondrial	2	true	Known mitochondrial	true	false
+ENSG00000088888	57506	MAVS	mitochondrial antiviral signaling protein	20	true	Known mitochondrial	true	true
+ENSG00000100294	27349	MCAT	malonyl-CoA-acyl carrier protein transacylase	22	true	Known mitochondrial	true	true
+ENSG00000078070	56922	MCCC1	methylcrotonoyl-CoA carboxylase 1	3	true	Known mitochondrial	true	true
+ENSG00000131844	64087	MCCC2	methylcrotonoyl-CoA carboxylase 2	5	true	Known mitochondrial	true	true
+ENSG00000124370	84693	MCEE	methylmalonyl-CoA epimerase	2	true	Known mitochondrial	true	false
+ENSG00000172366	84331	MCRIP2	MAPK regulated corepressor interacting protein 2	16	true	Predicted NOT mitochondrial	false	false
+ENSG00000156026	90550	MCU	mitochondrial calcium uniporter	10	true	Known mitochondrial	true	true
+ENSG00000005059	55013	MCUB	mitochondrial calcium uniporter dominant negative beta subunit	4	true	Known mitochondrial	true	false
+ENSG00000050393	63933	MCUR1	mitochondrial calcium uniporter regulator 1	6	true	Known mitochondrial	true	false
+ENSG00000014641	4190	MDH1	malate dehydrogenase 1	2	true	Probable contaminant	true	false
+ENSG00000146701	4191	MDH2	malate dehydrogenase 2	7	true	Known mitochondrial	true	true
+ENSG00000065833	4199	ME1	malic enzyme 1	6	true	Known NOT mitochondrial	true	false
+ENSG00000082212	4200	ME2	malic enzyme 2	18	true	Known mitochondrial	true	true
+ENSG00000151376	10873	ME3	malic enzyme 3	11	true	Known mitochondrial	true	false
+ENSG00000116353	51102	MECR	mitochondrial trans-2-enoyl-CoA reductase	1	true	Known mitochondrial	true	true
+ENSG00000172878	254042	METAP1D	methionyl aminopeptidase type 1D, mitochondrial	2	true	Known mitochondrial	true	false
+ENSG00000169519	196074	METTL15	methyltransferase like 15	11	true	Known mitochondrial	false	false
+ENSG00000165792	64745	METTL17	methyltransferase like 17	14	true	Predicted mitochondrial	true	false
+ENSG00000138382	29081	METTL5	methyltransferase like 5	2	true	Predicted NOT mitochondrial	false	false
+ENSG00000123600	79828	METTL8	methyltransferase like 8	2	true	Known mitochondrial	false	false
+ENSG00000168958	56947	MFF	mitochondrial fission factor	2	true	Known mitochondrial	true	true
+ENSG00000171109	55669	MFN1	mitofusin 1	3	true	Known mitochondrial	true	true
+ENSG00000116688	9927	MFN2	mitofusin 2	1	true	Known mitochondrial	true	false
+ENSG00000137463	84709	MGARP	mitochondria localized glutamic acid rich protein	4	true	Known mitochondrial	true	true
+ENSG00000125871	92667	MGME1	mitochondrial genome maintenance exonuclease 1	20	true	Known mitochondrial	true	true
+ENSG00000008394	4257	MGST1	microsomal glutathione S-transferase 1	12	true	Predicted mitochondrial	true	true
+ENSG00000143198	4259	MGST3	microsomal glutathione S-transferase 3	1	true	Known mitochondrial	false	false
+ENSG00000107745	10367	MICU1	mitochondrial calcium uptake 1	10	true	Known mitochondrial	true	true
+ENSG00000165487	221154	MICU2	mitochondrial calcium uptake 2	13	true	Known mitochondrial	true	true
+ENSG00000100335		MIEF1	mitochondrial elongation factor 1	22	true	Known mitochondrial	true	true
+ENSG00000173436	440574	MINOS1	mitochondrial inner membrane organizing system 1	1	true	Known mitochondrial	true	true
+ENSG00000027001	4285	MIPEP	mitochondrial intermediate peptidase	13	true	Known mitochondrial	true	true
+ENSG00000076242	4292	MLH1	mutL homolog 1	3	true	Predicted NOT mitochondrial	false	false
+ENSG00000103150	23417	MLYCD	malonyl-CoA decarboxylase	16	true	Known mitochondrial	true	false
+ENSG00000139428	326625	MMAB	methylmalonic aciduria (cobalamin deficiency) cblB type	12	true	Known mitochondrial	true	true
+ENSG00000132763	25974	MMACHC	methylmalonic aciduria (cobalamin deficiency) cblC type, with homocystinuria	1	true	Predicted mitochondrial	false	false
+ENSG00000168288	27249	MMADHC	methylmalonic aciduria and homocystinuria, cblD type	2	true	Known mitochondrial	true	false
+ENSG00000124615	4337	MOCS1	molybdenum cofactor synthesis 1	6	true	Known mitochondrial	false	false
+ENSG00000060762	51660	MPC1	mitochondrial pyruvate carrier 1	6	true	Known mitochondrial	true	true
+ENSG00000238205	347411	MPC1L	mitochondrial pyruvate carrier 1 like	X	true		true	false
+ENSG00000143158	25874	MPC2	mitochondrial pyruvate carrier 2	1	true	Known mitochondrial	true	false
+ENSG00000128309	4357	MPST	mercaptopyruvate sulfurtransferase	22	true	Known mitochondrial	true	true
+ENSG00000115204	4358	MPV17	MPV17, mitochondrial inner membrane protein	2	true	Known mitochondrial	true	false
+ENSG00000156968		MPV17L	MPV17 mitochondrial inner membrane protein like	16	true	Predicted NOT mitochondrial	true	false
+ENSG00000254858	84769	MPV17L2	MPV17 mitochondrial inner membrane protein like 2	19	true	Known mitochondrial	true	false
+ENSG00000278619		MRM1	mitochondrial rRNA methyltransferase 1	17	true	Known mitochondrial	true	true
+ENSG00000122687	29960	MRM2	mitochondrial rRNA methyltransferase 2	7	true	Known mitochondrial	true	false
+ENSG00000171861	55178	MRM3	mitochondrial rRNA methyltransferase 3	17	true	Known mitochondrial	true	true
+ENSG00000169288	65008	MRPL1	mitochondrial ribosomal protein L1	4	true	Known mitochondrial	true	true
+ENSG00000159111	124995	MRPL10	mitochondrial ribosomal protein L10	17	true	Known mitochondrial	true	true
+ENSG00000174547	65003	MRPL11	mitochondrial ribosomal protein L11	11	true	Known mitochondrial	true	true
+ENSG00000262814	6182	MRPL12	mitochondrial ribosomal protein L12	17	true	Known mitochondrial	true	true
+ENSG00000172172	28998	MRPL13	mitochondrial ribosomal protein L13	8	true	Known mitochondrial	true	false
+ENSG00000180992	64928	MRPL14	mitochondrial ribosomal protein L14	6	true	Known mitochondrial	true	true
+ENSG00000137547	29088	MRPL15	mitochondrial ribosomal protein L15	8	true	Known mitochondrial	true	false
+ENSG00000166902	54948	MRPL16	mitochondrial ribosomal protein L16	11	true	Known mitochondrial	true	false
+ENSG00000158042	63875	MRPL17	mitochondrial ribosomal protein L17	11	true	Known mitochondrial	true	false
+ENSG00000112110	29074	MRPL18	mitochondrial ribosomal protein L18	6	true	Known mitochondrial	true	false
+ENSG00000115364	9801	MRPL19	mitochondrial ribosomal protein L19	2	true	Known mitochondrial	true	true
+ENSG00000112651	51069	MRPL2	mitochondrial ribosomal protein L2	6	true	Known mitochondrial	true	true
+ENSG00000242485	55052	MRPL20	mitochondrial ribosomal protein L20	1	true	Known mitochondrial	true	true
+ENSG00000197345	219927	MRPL21	mitochondrial ribosomal protein L21	11	true	Known mitochondrial	true	true
+ENSG00000082515	29093	MRPL22	mitochondrial ribosomal protein L22	5	true	Known mitochondrial	true	true
+ENSG00000214026	6150	MRPL23	mitochondrial ribosomal protein L23	11	true	Known mitochondrial	true	true
+ENSG00000143314	79590	MRPL24	mitochondrial ribosomal protein L24	1	true	Known mitochondrial	true	false
+ENSG00000108826	51264	MRPL27	mitochondrial ribosomal protein L27	17	true	Known mitochondrial	true	false
+ENSG00000086504	10573	MRPL28	mitochondrial ribosomal protein L28	16	true	Known mitochondrial	true	true
+ENSG00000114686	11222	MRPL3	mitochondrial ribosomal protein L3	3	true	Known mitochondrial	true	false
+ENSG00000185414	51263	MRPL30	mitochondrial ribosomal protein L30	2	true	Known mitochondrial	true	false
+ENSG00000106591	64983	MRPL32	mitochondrial ribosomal protein L32	7	true	Known mitochondrial	true	false
+ENSG00000243147	9553	MRPL33	mitochondrial ribosomal protein L33	2	true	Known mitochondrial	true	false
+ENSG00000130312	64981	MRPL34	mitochondrial ribosomal protein L34	19	true	Known mitochondrial	true	false
+ENSG00000132313	51318	MRPL35	mitochondrial ribosomal protein L35	2	true	Known mitochondrial	true	false
+ENSG00000171421	64979	MRPL36	mitochondrial ribosomal protein L36	5	true	Known mitochondrial	true	true
+ENSG00000116221	51253	MRPL37	mitochondrial ribosomal protein L37	1	true	Known mitochondrial	true	true
+ENSG00000204316	64978	MRPL38	mitochondrial ribosomal protein L38	17	true	Known mitochondrial	true	true
+ENSG00000154719	54148	MRPL39	mitochondrial ribosomal protein L39	21	true	Known mitochondrial	true	false
+ENSG00000105364	51073	MRPL4	mitochondrial ribosomal protein L4	19	true	Known mitochondrial	true	false
+ENSG00000185608	64976	MRPL40	mitochondrial ribosomal protein L40	22	true	Known mitochondrial	true	true
+ENSG00000182154	64975	MRPL41	mitochondrial ribosomal protein L41	9	true	Known mitochondrial	true	true
+ENSG00000198015	28977	MRPL42	mitochondrial ribosomal protein L42	12	true	Known mitochondrial	true	true
+ENSG00000055950	84545	MRPL43	mitochondrial ribosomal protein L43	10	true	Known mitochondrial	true	true
+ENSG00000135900	65080	MRPL44	mitochondrial ribosomal protein L44	2	true	Known mitochondrial	true	true
+ENSG00000278845	84311	MRPL45	mitochondrial ribosomal protein L45	17	true	Known mitochondrial	true	true
+ENSG00000259494	26589	MRPL46	mitochondrial ribosomal protein L46	15	true	Known mitochondrial	true	true
+ENSG00000136522	57129	MRPL47	mitochondrial ribosomal protein L47	3	true	Known mitochondrial	true	true
+ENSG00000175581	51642	MRPL48	mitochondrial ribosomal protein L48	11	true	Known mitochondrial	true	false
+ENSG00000149792	740	MRPL49	mitochondrial ribosomal protein L49	11	true	Known mitochondrial	true	false
+ENSG00000136897	54534	MRPL50	mitochondrial ribosomal protein L50	9	true	Known mitochondrial	true	false
+ENSG00000111639	51258	MRPL51	mitochondrial ribosomal protein L51	12	true	Known mitochondrial	true	true
+ENSG00000172590	122704	MRPL52	mitochondrial ribosomal protein L52	14	true	Known mitochondrial	true	true
+ENSG00000204822	116540	MRPL53	mitochondrial ribosomal protein L53	2	true	Known mitochondrial	true	false
+ENSG00000183617	116541	MRPL54	mitochondrial ribosomal protein L54	19	true	Known mitochondrial	true	true
+ENSG00000162910	128308	MRPL55	mitochondrial ribosomal protein L55	1	true	Known mitochondrial	true	false
+ENSG00000173141	78988	MRPL57	mitochondrial ribosomal protein L57	13	true	Known mitochondrial	true	true
+ENSG00000167862	3396	MRPL58	mitochondrial ribosomal protein L58	17	true	Known mitochondrial	true	true
+ENSG00000143436	65005	MRPL9	mitochondrial ribosomal protein L9	1	true	Known mitochondrial	true	true
+ENSG00000048544	55173	MRPS10	mitochondrial ribosomal protein S10	6	true	Known mitochondrial	true	true
+ENSG00000181991	64963	MRPS11	mitochondrial ribosomal protein S11	15	true	Known mitochondrial	true	true
+ENSG00000128626		MRPS12	mitochondrial ribosomal protein S12	19	true	Known mitochondrial	true	false
+ENSG00000120333	63931	MRPS14	mitochondrial ribosomal protein S14	1	true	Known mitochondrial	true	true
+ENSG00000116898	64960	MRPS15	mitochondrial ribosomal protein S15	1	true	Known mitochondrial	true	true
+ENSG00000182180	51021	MRPS16	mitochondrial ribosomal protein S16	10	true	Known mitochondrial	true	true
+ENSG00000239789	51373	MRPS17	mitochondrial ribosomal protein S17	7	true	Known mitochondrial	true	false
+ENSG00000096080	55168	MRPS18A	mitochondrial ribosomal protein S18A	6	true	Known mitochondrial	true	false
+ENSG00000204568		MRPS18B	mitochondrial ribosomal protein S18B	6	true	Known mitochondrial	true	true
+ENSG00000163319	51023	MRPS18C	mitochondrial ribosomal protein S18C	4	true	Known mitochondrial	true	false
+ENSG00000122140	51116	MRPS2	mitochondrial ribosomal protein S2	9	true	Known mitochondrial	true	true
+ENSG00000266472	54460	MRPS21	mitochondrial ribosomal protein S21	1	true	Known mitochondrial	true	true
+ENSG00000175110	56945	MRPS22	mitochondrial ribosomal protein S22	3	true	Known mitochondrial	true	true
+ENSG00000181610	51649	MRPS23	mitochondrial ribosomal protein S23	17	true	Known mitochondrial	true	true
+ENSG00000062582	64951	MRPS24	mitochondrial ribosomal protein S24	7	true	Known mitochondrial	true	false
+ENSG00000131368	64432	MRPS25	mitochondrial ribosomal protein S25	3	true	Known mitochondrial	true	true
+ENSG00000125901	64949	MRPS26	mitochondrial ribosomal protein S26	20	true	Known mitochondrial	true	true
+ENSG00000113048	23107	MRPS27	mitochondrial ribosomal protein S27	5	true	Known mitochondrial	true	false
+ENSG00000147586	28957	MRPS28	mitochondrial ribosomal protein S28	8	true	Known mitochondrial	true	true
+ENSG00000112996	10884	MRPS30	mitochondrial ribosomal protein S30	5	true	Known mitochondrial	true	false
+ENSG00000102738	10240	MRPS31	mitochondrial ribosomal protein S31	13	true	Known mitochondrial	true	true
+ENSG00000090263	51650	MRPS33	mitochondrial ribosomal protein S33	7	true	Known mitochondrial	true	false
+ENSG00000074071	65993	MRPS34	mitochondrial ribosomal protein S34	16	true	Known mitochondrial	true	true
+ENSG00000061794	60488	MRPS35	mitochondrial ribosomal protein S35	12	true	Known mitochondrial	true	true
+ENSG00000134056		MRPS36	mitochondrial ribosomal protein S36	5	true	Known mitochondrial	true	true
+ENSG00000144029	64969	MRPS5	mitochondrial ribosomal protein S5	2	true	Known mitochondrial	true	true
+ENSG00000243927	64968	MRPS6	mitochondrial ribosomal protein S6	21	true	Known mitochondrial	true	false
+ENSG00000125445	51081	MRPS7	mitochondrial ribosomal protein S7	17	true	Known mitochondrial	true	true
+ENSG00000135972	64965	MRPS9	mitochondrial ribosomal protein S9	2	true	Known mitochondrial	true	true
+ENSG00000148187	92399	MRRF	mitochondrial ribosome recycling factor	9	true	Known mitochondrial	true	false
+ENSG00000124532	57380	MRS2	MRS2, magnesium transporter	6	true	Known mitochondrial	true	false
+ENSG00000175806	4482	MSRA	methionine sulfoxide reductase A	8	true	Known mitochondrial	true	false
+ENSG00000148450	22921	MSRB2	methionine sulfoxide reductase B2	10	true	Known mitochondrial	true	false
+ENSG00000174099	253827	MSRB3	methionine sulfoxide reductase B3	12	true	Known mitochondrial	true	false
+ENSG00000198899	4508	MT-ATP6	mitochondrially encoded ATP synthase membrane subunit 6	MT	true	Known mitochondrial	true	false
+ENSG00000228253	4509	MT-ATP8	mitochondrially encoded ATP synthase membrane subunit 8	MT	true	Known mitochondrial	true	false
+ENSG00000198804	4512	MT-CO1	mitochondrially encoded cytochrome c oxidase I	MT	true	Known mitochondrial	true	true
+ENSG00000198712	4513	MT-CO2	mitochondrially encoded cytochrome c oxidase II	MT	true	Known mitochondrial	true	false
+ENSG00000198938	4514	MT-CO3	mitochondrially encoded cytochrome c oxidase III	MT	true	Known mitochondrial	true	false
+ENSG00000198727	4519	MT-CYB	mitochondrially encoded cytochrome b	MT	true	Known mitochondrial	true	true
+ENSG00000198888	4535	MT-ND1	mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 1	MT	true	Known mitochondrial	true	false
+ENSG00000198763	4536	MT-ND2	mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 2	MT	true	Known mitochondrial	true	false
+ENSG00000198840	4537	MT-ND3	mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 3	MT	true	Known mitochondrial	true	false
+ENSG00000198886	4538	MT-ND4	mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 4	MT	true	Known mitochondrial	true	false
+ENSG00000212907	4539	MT-ND4L	mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 4L	MT	true	Known mitochondrial	true	true
+ENSG00000198786	4540	MT-ND5	mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 5	MT	true	Known mitochondrial	true	false
+ENSG00000198695	4541	MT-ND6	mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 6	MT	true	Known mitochondrial	true	false
+ENSG00000137409	23787	MTCH1	mitochondrial carrier 1	6	true	Known mitochondrial	true	false
+ENSG00000109919	23788	MTCH2	mitochondrial carrier 2	11	true	Known mitochondrial	true	true
+ENSG00000214827	4515	MTCP1	mature T cell proliferation 1	X	true	Predicted mitochondrial	false	false
+ENSG00000127989	7978	MTERF1	mitochondrial transcription termination factor 1	7	true	Known mitochondrial	true	true
+ENSG00000120832	80298	MTERF2	mitochondrial transcription termination factor 2	12	true	Known mitochondrial	true	false
+ENSG00000156469	51001	MTERF3	mitochondrial transcription termination factor 3	8	true	Known mitochondrial	true	true
+ENSG00000122085	130916	MTERF4	mitochondrial transcription termination factor 4	2	true	Known mitochondrial	true	true
+ENSG00000103707	123263	MTFMT	mitochondrial methionyl-tRNA formyltransferase	15	true	Known mitochondrial	true	false
+ENSG00000242114	51537	MTFP1	mitochondrial fission process 1	22	true	Known mitochondrial	true	true
+ENSG00000066855	9650	MTFR1	mitochondrial fission regulator 1	8	true	Known mitochondrial	true	true
+ENSG00000117640	56181	MTFR1L	mitochondrial fission regulator 1 like	1	true	Known mitochondrial	true	true
+ENSG00000148824	92170	MTG1	mitochondrial ribosome associated GTPase 1	10	true	Known mitochondrial	true	true
+ENSG00000101181	26164	MTG2	mitochondrial ribosome associated GTPase 2	20	true	Known mitochondrial	true	false
+ENSG00000100714	4522	MTHFD1	methylenetetrahydrofolate dehydrogenase, cyclohydrolase and formyltetrahydrofolate synthetase 1	14	true	Predicted mitochondrial	true	false
+ENSG00000120254	25902	MTHFD1L	methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 1 like	6	true	Known mitochondrial	true	true
+ENSG00000065911	10797	MTHFD2	methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 2, methenyltetrahydrofolate cyclohydrolase	2	true	Known mitochondrial	true	false
+ENSG00000163738	441024	MTHFD2L	methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 2 like	4	true	Known mitochondrial	true	false
+ENSG00000136371	10588	MTHFS	methenyltetrahydrofolate synthetase	15	true	Known mitochondrial	true	false
+ENSG00000085760	4528	MTIF2	mitochondrial translational initiation factor 2	2	true	Known mitochondrial	true	true
+ENSG00000122033	219402	MTIF3	mitochondrial translational initiation factor 3	13	true	Known mitochondrial	true	true
+ENSG00000135297	25821	MTO1	mitochondrial tRNA translation optimization 1	6	true	Known mitochondrial	true	false
+ENSG00000107951	55149	MTPAP	mitochondrial poly(A) polymerase	10	true	Known mitochondrial	true	true
+ENSG00000120662	9617	MTRF1	mitochondrial translation release factor 1	13	true	Known mitochondrial	true	false
+ENSG00000112031	54516	MTRF1L	mitochondrial translational release factor 1 like	6	true	Known mitochondrial	true	false
+ENSG00000173171	4580	MTX1	metaxin 1	1	true	Known mitochondrial	true	true
+ENSG00000128654	10651	MTX2	metaxin 2	2	true	Known mitochondrial	true	true
+ENSG00000090432	79594	MUL1	mitochondrial E3 ubiquitin protein ligase 1	1	true	Known mitochondrial	true	true
+ENSG00000146085	4594	MUT	methylmalonyl-CoA mutase	6	true	Known mitochondrial	true	true
+ENSG00000132781	4595	MUTYH	mutY DNA glycosylase	1	true	Predicted mitochondrial	true	false
+ENSG00000152620	133686	NADK2	NAD kinase 2, mitochondrial	5	true	Known mitochondrial	true	false
+ENSG00000161653	162417	NAGS	N-acetylglutamate synthase	17	true	Known mitochondrial	true	true
+ENSG00000137513	79731	NARS2	asparaginyl-tRNA synthetase 2, mitochondrial	11	true	Known mitochondrial	true	true
+ENSG00000213995	55739	NAXD	NAD(P)HX dehydratase	13	true	Known mitochondrial	true	false
+ENSG00000163382	128240	NAXE	NAD(P)HX epimerase	1	true	Known mitochondrial	true	false
+ENSG00000188554	4077	NBR1	NBR1, autophagy cargo receptor	17	true	Known mitochondrial	true	false
+ENSG00000144959	57552	NCEH1	neutral cholesterol ester hydrolase 1	3	true	Predicted NOT mitochondrial	false	false
+ENSG00000266412	8031	NCOA4	nuclear receptor coactivator 4	10	true	Predicted NOT mitochondrial	false	false
+ENSG00000125356	4694	NDUFA1	NADH:ubiquinone oxidoreductase subunit A1	X	true	Known mitochondrial	true	true
+ENSG00000130414		NDUFA10	NADH:ubiquinone oxidoreductase subunit A10	2	true	Known mitochondrial	true	true
+ENSG00000174886	126328	NDUFA11	NADH:ubiquinone oxidoreductase subunit A11	19	true	Known mitochondrial	true	false
+ENSG00000184752	55967	NDUFA12	NADH:ubiquinone oxidoreductase subunit A12	12	true	Known mitochondrial	true	true
+ENSG00000186010	51079	NDUFA13	NADH:ubiquinone oxidoreductase subunit A13	19	true	Known mitochondrial	true	true
+ENSG00000131495	4695	NDUFA2	NADH:ubiquinone oxidoreductase subunit A2	5	true	Known mitochondrial	true	false
+ENSG00000170906		NDUFA3	NADH:ubiquinone oxidoreductase subunit A3	19	true	Known mitochondrial	true	false
+ENSG00000189043	4697	NDUFA4	NDUFA4, mitochondrial complex associated	7	true	Known mitochondrial	true	true
+ENSG00000128609	4698	NDUFA5	NADH:ubiquinone oxidoreductase subunit A5	7	true	Known mitochondrial	true	false
+ENSG00000184983		NDUFA6	NADH:ubiquinone oxidoreductase subunit A6	22	true	Known mitochondrial	true	false
+ENSG00000119421	4702	NDUFA8	NADH:ubiquinone oxidoreductase subunit A8	9	true	Known mitochondrial	true	true
+ENSG00000139180	4704	NDUFA9	NADH:ubiquinone oxidoreductase subunit A9	12	true	Known mitochondrial	true	true
+ENSG00000004779	4706	NDUFAB1	NADH:ubiquinone oxidoreductase subunit AB1	16	true	Known mitochondrial	true	true
+ENSG00000137806	51103	NDUFAF1	NADH:ubiquinone oxidoreductase complex assembly factor 1	15	true	Known mitochondrial	true	false
+ENSG00000164182	91942	NDUFAF2	NADH:ubiquinone oxidoreductase complex assembly factor 2	5	true	Known mitochondrial	true	true
+ENSG00000178057	25915	NDUFAF3	NADH:ubiquinone oxidoreductase complex assembly factor 3	3	true	Known mitochondrial	true	false
+ENSG00000123545	29078	NDUFAF4	NADH:ubiquinone oxidoreductase complex assembly factor 4	6	true	Known mitochondrial	true	true
+ENSG00000101247	79133	NDUFAF5	NADH:ubiquinone oxidoreductase complex assembly factor 5	20	true	Known mitochondrial	true	false
+ENSG00000156170	137682	NDUFAF6	NADH:ubiquinone oxidoreductase complex assembly factor 6	8	true	Known mitochondrial	true	false
+ENSG00000003509	55471	NDUFAF7	NADH:ubiquinone oxidoreductase complex assembly factor 7	2	true	Known mitochondrial	true	false
+ENSG00000224877	284184	NDUFAF8	NADH:ubiquinone oxidoreductase complex assembly factor 8	17	true	Predicted mitochondrial	true	true
+ENSG00000183648	4707	NDUFB1	NADH:ubiquinone oxidoreductase subunit B1	14	true	Known mitochondrial	true	true
+ENSG00000140990	4716	NDUFB10	NADH:ubiquinone oxidoreductase subunit B10	16	true	Known mitochondrial	true	false
+ENSG00000147123	54539	NDUFB11	NADH:ubiquinone oxidoreductase subunit B11	X	true	Known mitochondrial	true	true
+ENSG00000090266	4708	NDUFB2	NADH:ubiquinone oxidoreductase subunit B2	7	true	Known mitochondrial	true	false
+ENSG00000119013	4709	NDUFB3	NADH:ubiquinone oxidoreductase subunit B3	2	true	Known mitochondrial	true	false
+ENSG00000065518	4710	NDUFB4	NADH:ubiquinone oxidoreductase subunit B4	3	true	Known mitochondrial	true	true
+ENSG00000136521	4711	NDUFB5	NADH:ubiquinone oxidoreductase subunit B5	3	true	Known mitochondrial	true	true
+ENSG00000165264	4712	NDUFB6	NADH:ubiquinone oxidoreductase subunit B6	9	true	Known mitochondrial	true	true
+ENSG00000099795	4713	NDUFB7	NADH:ubiquinone oxidoreductase subunit B7	19	true	Known mitochondrial	true	false
+ENSG00000166136	4714	NDUFB8	NADH:ubiquinone oxidoreductase subunit B8	10	true	Known mitochondrial	true	true
+ENSG00000147684	4715	NDUFB9	NADH:ubiquinone oxidoreductase subunit B9	8	true	Known mitochondrial	true	true
+ENSG00000109390	4717	NDUFC1	NADH:ubiquinone oxidoreductase subunit C1	4	true	Known mitochondrial	true	true
+ENSG00000151366	4718	NDUFC2	NADH:ubiquinone oxidoreductase subunit C2	11	true	Known mitochondrial	true	true
+ENSG00000023228		NDUFS1	NADH:ubiquinone oxidoreductase core subunit S1	2	true	Known mitochondrial	true	true
+ENSG00000158864	4720	NDUFS2	NADH:ubiquinone oxidoreductase core subunit S2	1	true	Known mitochondrial	true	true
+ENSG00000213619	4722	NDUFS3	NADH:ubiquinone oxidoreductase core subunit S3	11	true	Known mitochondrial	true	true
+ENSG00000164258	4724	NDUFS4	NADH:ubiquinone oxidoreductase subunit S4	5	true	Known mitochondrial	true	true
+ENSG00000168653	4725	NDUFS5	NADH:ubiquinone oxidoreductase subunit S5	1	true	Known mitochondrial	true	false
+ENSG00000145494	4726	NDUFS6	NADH:ubiquinone oxidoreductase subunit S6	5	true	Known mitochondrial	true	false
+ENSG00000115286	374291	NDUFS7	NADH:ubiquinone oxidoreductase core subunit S7	19	true	Known mitochondrial	true	false
+ENSG00000110717	4728	NDUFS8	NADH:ubiquinone oxidoreductase core subunit S8	11	true	Known mitochondrial	true	true
+ENSG00000167792	4723	NDUFV1	NADH:ubiquinone oxidoreductase core subunit V1	11	true	Known mitochondrial	true	true
+ENSG00000178127	4729	NDUFV2	NADH:ubiquinone oxidoreductase core subunit V2	18	true	Known mitochondrial	true	true
+ENSG00000160194	4731	NDUFV3	NADH:ubiquinone oxidoreductase subunit V3	21	true	Known mitochondrial	true	true
+ENSG00000204099		NEU4	neuraminidase 4	2	true	Known mitochondrial	false	false
+ENSG00000244005	9054	NFS1	NFS1, cysteine desulfurase	20	true	Known mitochondrial	true	false
+ENSG00000169599	27247	NFU1	NFU1 iron-sulfur cluster scaffold	2	true	Known mitochondrial	true	false
+ENSG00000182768	51335	NGRN	neugrin, neurite outgrowth associated	15	true	Known mitochondrial	false	false
+ENSG00000196290	60491	NIF3L1	NGG1 interacting factor 3 like 1	2	true	Known mitochondrial	true	false
+ENSG00000184117	8508	NIPSNAP1	nipsnap homolog 1	22	true	Known mitochondrial	true	false
+ENSG00000146729	2631	NIPSNAP2	nipsnap homolog 2	7	true	Known mitochondrial	true	true
+ENSG00000136783	25934	NIPSNAP3A	nipsnap homolog 3A	9	true	Known mitochondrial	true	false
+ENSG00000165028	55335	NIPSNAP3B	nipsnap homolog 3B	9	true	Predicted mitochondrial	true	false
+ENSG00000158793	4817	NIT1	nitrilase 1	1	true	Known mitochondrial	true	false
+ENSG00000114021	56954	NIT2	nitrilase family member 2	3	true	Predicted mitochondrial	false	false
+ENSG00000123213		NLN	neurolysin	5	true	Known mitochondrial	true	true
+ENSG00000160703	79671	NLRX1	NLR family member X1	11	true	Known mitochondrial	true	true
+ENSG00000103024	4832	NME3	NME/NM23 nucleoside diphosphate kinase 3	16	true	Known mitochondrial	false	false
+ENSG00000103202	4833	NME4	NME/NM23 nucleoside diphosphate kinase 4	16	true	Known mitochondrial	true	true
+ENSG00000172113	10201	NME6	NME/NM23 nucleoside diphosphate kinase 6	3	true	Known mitochondrial	true	false
+ENSG00000163864	349565	NMNAT3	nicotinamide nucleotide adenylyltransferase 3	3	true	Known mitochondrial	true	true
+ENSG00000112992	23530	NNT	nicotinamide nucleotide transhydrogenase	5	true	Known mitochondrial	true	true
+ENSG00000084092	84273	NOA1	nitric oxide associated 1	4	true	Known mitochondrial	true	true
+ENSG00000078618	4898	NRDC	nardilysin convertase	1	true	Predicted NOT mitochondrial	true	false
+ENSG00000178694	63899	NSUN3	NOP2/Sun RNA methyltransferase family member 3	3	true	Known mitochondrial	true	false
+ENSG00000117481	387338	NSUN4	NOP2/Sun RNA methyltransferase family member 4	1	true	Known mitochondrial	true	false
+ENSG00000125458	30833	NT5C	5', 3'-nucleotidase, cytosolic	17	true	Predicted NOT mitochondrial	false	false
+ENSG00000168268	64943	NT5DC2	5'-nucleotidase domain containing 2	3	true	Known mitochondrial	false	false
+ENSG00000111696	51559	NT5DC3	5'-nucleotidase domain containing 3	12	true	Known mitochondrial	false	true
+ENSG00000205309	56953	NT5M	5',3'-nucleotidase, mitochondrial	17	true	Known mitochondrial	true	false
+ENSG00000065057	4913	NTHL1	nth like DNA glycosylase 1	16	true	Predicted NOT mitochondrial	true	false
+ENSG00000151413	80224	NUBPL	nucleotide binding protein like	14	true	Known mitochondrial	true	true
+ENSG00000070081	4925	NUCB2	nucleobindin 2	11	true	Known mitochondrial	false	false
+ENSG00000166321	25961	NUDT13	nudix hydrolase 13	10	true	Known mitochondrial	true	false
+ENSG00000213965	390916	NUDT19	nudix hydrolase 19	19	true	Known mitochondrial	false	false
+ENSG00000164978	318	NUDT2	nudix hydrolase 2	9	true	Predicted mitochondrial	true	false
+ENSG00000165609	11164	NUDT5	nudix hydrolase 5	10	true	Predicted NOT mitochondrial	false	false
+ENSG00000170917	11162	NUDT6	nudix hydrolase 6	4	true	Known mitochondrial	true	false
+ENSG00000167799	254552	NUDT8	nudix hydrolase 8	11	true	Known mitochondrial	false	false
+ENSG00000170502	53343	NUDT9	nudix hydrolase 9	4	true	Known mitochondrial	true	false
+ENSG00000065154	4942	OAT	ornithine aminotransferase	10	true	Known mitochondrial	true	true
+ENSG00000154358	84033	OBSCN	obscurin, cytoskeletal calmodulin and titin-interacting RhoGEF	1	true	Predicted NOT mitochondrial	false	false
+ENSG00000109180	54940	OCIAD1	OCIA domain containing 1	4	true	Known mitochondrial	false	true
+ENSG00000145247	132299	OCIAD2	OCIA domain containing 2	4	true	Known mitochondrial	false	true
+ENSG00000105953	4967	OGDH	oxoglutarate dehydrogenase	7	true	Known mitochondrial	true	true
+ENSG00000197444	55753	OGDHL	oxoglutarate dehydrogenase like	10	true	Known mitochondrial	true	false
+ENSG00000114026	4968	OGG1	8-oxoguanine DNA glycosylase	3	true	Known mitochondrial	true	false
+ENSG00000162600	115209	OMA1	OMA1 zinc metallopeptidase	1	true	Known mitochondrial	true	true
+ENSG00000198836	4976	OPA1	OPA1, mitochondrial dynamin like GTPase	3	true	Known mitochondrial	true	true
+ENSG00000125741	80207	OPA3	OPA3, outer mitochondrial membrane lipid metabolism regulator	19	true	Known mitochondrial	true	false
+ENSG00000141447	114876	OSBPL1A	oxysterol binding protein like 1A	18	true	Predicted NOT mitochondrial	false	false
+ENSG00000128694	64172	OSGEPL1	O-sialoglycoprotein endopeptidase like 1	2	true	Known mitochondrial	true	true
+ENSG00000036473	5009	OTC	ornithine carbamoyltransferase	X	true	Known mitochondrial	true	true
+ENSG00000155463	5018	OXA1L	OXA1L, mitochondrial inner membrane protein	14	true	Known mitochondrial	true	true
+ENSG00000083720	5019	OXCT1	3-oxoacid CoA-transferase 1	5	true	Known mitochondrial	true	true
+ENSG00000204237	339229	OXLD1	oxidoreductase like domain containing 1	17	true	Predicted mitochondrial	false	false
+ENSG00000154814	92106	OXNAD1	oxidoreductase NAD binding domain containing 1	3	true	Known mitochondrial	true	false
+ENSG00000164830	55074	OXR1	oxidation resistance 1	8	true	Known mitochondrial	true	false
+ENSG00000151093	54995	OXSM	3-oxoacyl-ACP synthase, mitochondrial	3	true	Known mitochondrial	true	true
+ENSG00000185624	5034	P4HB	prolyl 4-hydroxylase subunit beta	17	true	Known mitochondrial	false	false
+ENSG00000174740	140886	PABPC5	poly(A) binding protein cytoplasmic 5	X	true	Known mitochondrial	true	false
+ENSG00000100266	11252	PACSIN2	protein kinase C and casein kinase substrate in neurons 2	22	true	Predicted NOT mitochondrial	false	false
+ENSG00000128050	10606	PAICS	phosphoribosylaminoimidazole carboxylase and phosphoribosylaminoimidazolesuccinocarboxamide synthase	4	true	Known mitochondrial	false	false
+ENSG00000101349	57144	PAK5	p21 (RAC1) activated kinase 5	20	true	Known mitochondrial	true	false
+ENSG00000217930		PAM16	presequence translocase associated motor 16	16	true	Known mitochondrial	true	true
+ENSG00000125779	80025	PANK2	pantothenate kinase 2	20	true	Known mitochondrial	true	false
+ENSG00000116288	11315	PARK7	Parkinsonism associated deglycase	1	true	Known mitochondrial	true	false
+ENSG00000175193	55486	PARL	presenilin associated rhomboid like	3	true	Known mitochondrial	true	true
+ENSG00000162396	25973	PARS2	prolyl-tRNA synthetase 2, mitochondrial	1	true	Known mitochondrial	true	true
+ENSG00000173599	5091	PC	pyruvate carboxylase	11	true	Known mitochondrial	true	true
+ENSG00000132570	84105	PCBD2	pterin-4 alpha-carbinolamine dehydratase 2	5	true	Predicted mitochondrial	false	false
+ENSG00000175198	5095	PCCA	propionyl-CoA carboxylase alpha subunit	13	true	Known mitochondrial	true	false
+ENSG00000114054	5096	PCCB	propionyl-CoA carboxylase beta subunit	3	true	Known mitochondrial	true	false
+ENSG00000100889	5106	PCK2	phosphoenolpyruvate carboxykinase 2, mitochondrial	14	true	Known mitochondrial	true	true
+ENSG00000174840	201626	PDE12	phosphodiesterase 12	3	true	Known mitochondrial	true	false
+ENSG00000258429	64146	PDF	peptide deformylase, mitochondrial	16	true	Known mitochondrial	true	true
+ENSG00000131828	5160	PDHA1	pyruvate dehydrogenase E1 alpha 1 subunit	X	true	Known mitochondrial	true	true
+ENSG00000163114	5161	PDHA2	pyruvate dehydrogenase E1 alpha 2 subunit	4	true	Known mitochondrial	true	true
+ENSG00000168291	5162	PDHB	pyruvate dehydrogenase E1 beta subunit	3	true	Known mitochondrial	true	true
+ENSG00000110435	8050	PDHX	pyruvate dehydrogenase complex component X	11	true	Known mitochondrial	true	true
+ENSG00000152256	5163	PDK1	pyruvate dehydrogenase kinase 1	2	true	Known mitochondrial	true	true
+ENSG00000005882	5164	PDK2	pyruvate dehydrogenase kinase 2	17	true	Known mitochondrial	true	true
+ENSG00000067992	5165	PDK3	pyruvate dehydrogenase kinase 3	X	true	Known mitochondrial	true	true
+ENSG00000004799	5166	PDK4	pyruvate dehydrogenase kinase 4	7	true	Known mitochondrial	true	false
+ENSG00000164951	54704	PDP1	pyruvate dehyrogenase phosphatase catalytic subunit 1	8	true	Known mitochondrial	true	true
+ENSG00000172840	57546	PDP2	pyruvate dehyrogenase phosphatase catalytic subunit 2	16	true	Known mitochondrial	true	true
+ENSG00000090857	55066	PDPR	pyruvate dehydrogenase phosphatase regulatory subunit	16	true	Known mitochondrial	true	true
+ENSG00000148459	23590	PDSS1	decaprenyl diphosphate synthase subunit 1	10	true	Known mitochondrial	true	false
+ENSG00000164494	57107	PDSS2	decaprenyl diphosphate synthase subunit 2	6	true	Known mitochondrial	true	false
+ENSG00000229833	100131801	PET100	PET100 homolog	19	true	Known mitochondrial	true	true
+ENSG00000131779	8799	PEX11B	peroxisomal biogenesis factor 11 beta	1	true	Probable contaminant	false	false
+ENSG00000247077	192111	PGAM5	PGAM family member 5, mitochondrial serine/threonine protein phosphatase	12	true	Known mitochondrial	true	true
+ENSG00000087157	9489	PGS1	phosphatidylglycerophosphate synthase 1	17	true	Known mitochondrial	true	false
+ENSG00000167085	5245	PHB	prohibitin	17	true	Known mitochondrial	true	true
+ENSG00000215021	11331	PHB2	prohibitin 2	12	true	Known mitochondrial	true	true
+ENSG00000107537	5264	PHYH	phytanoyl-CoA 2-hydroxylase	10	true	Probable contaminant	false	false
+ENSG00000241973	5297	PI4KA	phosphatidylinositol 4-kinase alpha	22	true	Predicted NOT mitochondrial	false	false
+ENSG00000100151	9463	PICK1	protein interacting with PRKCA 1	22	true	Predicted NOT mitochondrial	true	true
+ENSG00000140451	80119	PIF1	PIF1 5'-to-3' DNA helicase	15	true	Known mitochondrial	true	false
+ENSG00000158828	65018	PINK1	PTEN induced putative kinase 1	1	true	Known mitochondrial	true	false
+ENSG00000241878	23761	PISD	phosphatidylserine decarboxylase	22	true	Known mitochondrial	true	false
+ENSG00000107959	10531	PITRM1	pitrilysin metallopeptidase 1	10	true	Known mitochondrial	true	true
+ENSG00000143627		PKLR	pyruvate kinase L/R	1	true	Predicted NOT mitochondrial	false	false
+ENSG00000107020	55848	PLGRKT	plasminogen receptor with a C-terminal lysine	9	true	Known mitochondrial	false	true
+ENSG00000147471	11212	PLPBP	pyridoxal phosphate binding protein	8	true	Known mitochondrial	false	false
+ENSG00000141682	5366	PMAIP1	phorbol-12-myristate-13-acetate-induced protein 1	18	true	Known mitochondrial	true	false
+ENSG00000165688	23203	PMPCA	peptidase, mitochondrial processing alpha subunit	9	true	Known mitochondrial	true	true
+ENSG00000105819	9512	PMPCB	peptidase, mitochondrial processing beta subunit	7	true	Known mitochondrial	true	true
+ENSG00000135241	50640	PNPLA8	patatin like phospholipase domain containing 8	7	true	Known mitochondrial	false	false
+ENSG00000108439	55163	PNPO	pyridoxamine 5'-phosphate oxidase	17	true	Known mitochondrial	false	false
+ENSG00000138035	87178	PNPT1	polyribonucleotide nucleotidyltransferase 1	2	true	Known mitochondrial	true	true
+ENSG00000004142	26073	POLDIP2	DNA polymerase delta interacting protein 2	17	true	Known mitochondrial	true	true
+ENSG00000140521	5428	POLG	DNA polymerase gamma, catalytic subunit	15	true	Known mitochondrial	true	false
+ENSG00000256525	11232	POLG2	DNA polymerase gamma 2, accessory subunit	17	true	Known mitochondrial	true	true
+ENSG00000099821	5442	POLRMT	RNA polymerase mitochondrial	19	true	Known mitochondrial	true	true
+ENSG00000138777	27068	PPA2	pyrophosphatase (inorganic) 2	4	true	Known mitochondrial	true	true
+ENSG00000108179	10105	PPIF	peptidylprolyl isomerase F	10	true	Known mitochondrial	true	true
+ENSG00000163644	152926	PPM1K	protein phosphatase, Mg2+/Mn2+ dependent 1K	4	true	Known mitochondrial	true	true
+ENSG00000143224	5498	PPOX	protoporphyrinogen oxidase	1	true	Known mitochondrial	true	true
+ENSG00000196850	160760	PPTC7	PTC7 protein phosphatase homolog	12	true	Known mitochondrial	false	false
+ENSG00000113593	23398	PPWD1	peptidylprolyl isomerase domain and WD repeat containing 1	5	true	Predicted NOT mitochondrial	false	false
+ENSG00000167815	7001	PRDX2	peroxiredoxin 2	19	true	Predicted mitochondrial	false	false
+ENSG00000165672	10935	PRDX3	peroxiredoxin 3	10	true	Known mitochondrial	true	false
+ENSG00000123131	10549	PRDX4	peroxiredoxin 4	X	true	Known mitochondrial	false	false
+ENSG00000126432	25824	PRDX5	peroxiredoxin 5	11	true	Known mitochondrial	true	true
+ENSG00000117592	9588	PRDX6	peroxiredoxin 6	1	true	Predicted mitochondrial	false	false
+ENSG00000169230	27166	PRELID1	PRELI domain containing 1	5	true	Known mitochondrial	true	true
+ENSG00000186314	153768	PRELID2	PRELI domain containing 2	5	true	Predicted mitochondrial	true	false
+ENSG00000141391	10650	PRELID3A	PRELI domain containing 3A	18	true	Predicted mitochondrial	true	false
+ENSG00000101166	51012	PRELID3B	PRELI domain containing 3B	20	true	Predicted mitochondrial	true	false
+ENSG00000138078	9581	PREPL	prolyl endopeptidase like	2	true	Known mitochondrial	false	false
+ENSG00000100033	5625	PRODH	proline dehydrogenase 1	22	true	Known mitochondrial	true	false
+ENSG00000250799	58510	PRODH2	proline dehydrogenase 2	19	true	Known mitochondrial	true	false
+ENSG00000146250	167681	PRSS35	serine protease 35	6	true	Predicted NOT mitochondrial	false	false
+ENSG00000100902	5687	PSMA6	proteasome subunit alpha 6	14	true	Known NOT mitochondrial	false	false
+ENSG00000179988	118672	PSTK	phosphoseryl-tRNA kinase	10	true	Predicted mitochondrial	false	false
+ENSG00000106246	26024	PTCD1	pentatricopeptide repeat domain 1	7	true	Known mitochondrial	true	true
+ENSG00000049883	79810	PTCD2	pentatricopeptide repeat domain 2	5	true	Known mitochondrial	true	false
+ENSG00000132300	55037	PTCD3	pentatricopeptide repeat domain 3	2	true	Known mitochondrial	true	true
+ENSG00000148334	80142	PTGES2	prostaglandin E synthase 2	9	true	Known mitochondrial	true	true
+ENSG00000110536	114971	PTPMT1	protein tyrosine phosphatase, mitochondrial 1	11	true	Known mitochondrial	true	true
+ENSG00000088179	5775	PTPN4	protein tyrosine phosphatase, non-receptor type 4	2	true	Predicted NOT mitochondrial	false	false
+ENSG00000187024	138428	PTRH1	peptidyl-tRNA hydrolase 1 homolog	9	true	Known mitochondrial	false	false
+ENSG00000141378	51651	PTRH2	peptidyl-tRNA hydrolase 2	17	true	Known mitochondrial	true	true
+ENSG00000150787	5805	PTS	6-pyruvoyltetrahydropterin synthase	11	true	Predicted mitochondrial	true	false
+ENSG00000177192	80324	PUS1	pseudouridylate synthase 1	12	true	Known mitochondrial	true	true
+ENSG00000169972	126789	PUSL1	pseudouridylate synthase-like 1	1	true	Known mitochondrial	false	false
+ENSG00000176894	5827	PXMP2	peroxisomal membrane protein 2	12	true	Predicted mitochondrial	false	false
+ENSG00000101417	11264	PXMP4	peroxisomal membrane protein 4	20	true	Probable contaminant	false	false
+ENSG00000183010	5831	PYCR1	pyrroline-5-carboxylate reductase 1	17	true	Known mitochondrial	true	false
+ENSG00000143811	29920	PYCR2	pyrroline-5-carboxylate reductase 2	1	true	Known mitochondrial	true	true
+ENSG00000145337	100996939	PYURF	PIGY upstream reading frame	4	true	Known mitochondrial	true	false
+ENSG00000151552	5860	QDPR	quinoid dihydropteridine reductase	4	true	Known mitochondrial	false	true
+ENSG00000130348	55278	QRSL1	glutaminyl-tRNA synthase (glutamine-hydrolyzing)-like 1	6	true	Known mitochondrial	true	false
+ENSG00000213339	81890	QTRT1	queuine tRNA-ribosyltransferase catalytic subunit 1	19	true	Known mitochondrial	true	true
+ENSG00000135631	26056	RAB11FIP5	RAB11 family interacting protein 5	2	true	Known mitochondrial	true	false
+ENSG00000169228	53917	RAB24	RAB24, member RAS oncogene family	5	true	Known mitochondrial	false	false
+ENSG00000118508	10981	RAB32	RAB32, member RAS oncogene family	6	true	Known mitochondrial	true	false
+ENSG00000111737	11021	RAB35	RAB35, member RAS oncogene family	12	true	Known mitochondrial	false	false
+ENSG00000113643	5917	RARS	arginyl-tRNA synthetase	5	true	Predicted mitochondrial	false	false
+ENSG00000146282	57038	RARS2	arginyl-tRNA synthetase 2, mitochondrial	6	true	Known mitochondrial	true	false
+ENSG00000101546	79863	RBFA	ribosome binding factor A	18	true	Known mitochondrial	true	true
+ENSG00000274523	81554	RCC1L	RCC1 like	7	true	Known mitochondrial	false	false
+ENSG00000117906	5955	RCN2	reticulocalbin 2	15	true	Known mitochondrial	false	false
+ENSG00000072042	51109	RDH11	retinol dehydrogenase 11 (all-trans/9-cis/11-cis)	14	true	Known NOT mitochondrial	false	false
+ENSG00000160439		RDH13	retinol dehydrogenase 13	19	true	Predicted mitochondrial	true	true
+ENSG00000240857	57665	RDH14	retinol dehydrogenase 14	2	true	Predicted mitochondrial	false	false
+ENSG00000160957	9401	RECQL4	RecQ like helicase 4	8	true	Predicted NOT mitochondrial	false	false
+ENSG00000076043	25996	REXO2	RNA exonuclease 2	11	true	Known mitochondrial	true	true
+ENSG00000135002	55312	RFK	riboflavin kinase	9	true	Predicted mitochondrial	false	false
+ENSG00000126858	55288	RHOT1	ras homolog family member T1	17	true	Known mitochondrial	true	false
+ENSG00000140983	89941	RHOT2	ras homolog family member T2	16	true	Known mitochondrial	true	false
+ENSG00000132541	10247	RIDA	reactive intermediate imine deaminase A homolog	8	true	Known mitochondrial	true	false
+ENSG00000176623	51115	RMDN1	regulator of microtubule dynamics 1	8	true	Known mitochondrial	false	false
+ENSG00000137824	55177	RMDN3	regulator of microtubule dynamics 3	15	true	Known mitochondrial	true	true
+ENSG00000155906	55005	RMND1	required for meiotic nuclear division 1 homolog	6	true	Known mitochondrial	true	true
+ENSG00000171865	246243	RNASEH1	ribonuclease H1	2	true	Known mitochondrial	false	false
+ENSG00000125995	140823	ROMO1	reactive oxygen species modulator 1	20	true	Known mitochondrial	true	false
+ENSG00000153574	22934	RPIA	ribose 5-phosphate isomerase A	2	true	Known mitochondrial	false	false
+ENSG00000198755	4736	RPL10A	ribosomal protein L10a	6	true	Predicted mitochondrial	false	false
+ENSG00000109475	6164	RPL34	ribosomal protein L34	4	true	Predicted mitochondrial	false	false
+ENSG00000182899	6165	RPL35A	ribosomal protein L35a	3	true	Predicted mitochondrial	false	false
+ENSG00000164587	6208	RPS14	ribosomal protein S14	5	true	Predicted mitochondrial	false	false
+ENSG00000134419	6210	RPS15A	ribosomal protein S15a	16	true	Predicted mitochondrial	false	false
+ENSG00000231500		RPS18	ribosomal protein S18	6	true	Predicted mitochondrial	false	false
+ENSG00000156990	285367	RPUSD3	RNA pseudouridylate synthase domain containing 3	3	true	Known mitochondrial	true	false
+ENSG00000165526	84881	RPUSD4	RNA pseudouridylate synthase domain containing 4	11	true	Known mitochondrial	true	true
+ENSG00000136444	55316	RSAD1	radical S-adenosyl methionine domain containing 1	17	true	Known mitochondrial	true	false
+ENSG00000130347	84816	RTN4IP1	reticulon 4 interacting protein 1	6	true	Known mitochondrial	true	false
+ENSG00000100347	25813	SAMM50	SAMM50 sorting and assembly machinery component	22	true	Known mitochondrial	true	true
+ENSG00000123453	1757	SARDH	sarcosine dehydrogenase	9	true	Known mitochondrial	true	true
+ENSG00000104835		SARS2	seryl-tRNA synthetase 2, mitochondrial	19	true	Known mitochondrial	true	false
+ENSG00000143653	51097	SCCPDH	saccharopine dehydrogenase (putative)	1	true	Known mitochondrial	true	false
+ENSG00000133028	6341	SCO1	SCO1, cytochrome c oxidase assembly protein	17	true	Known mitochondrial	true	false
+ENSG00000130489		SCO2	SCO2, cytochrome c oxidase assembly protein	22	true	Known mitochondrial	true	true
+ENSG00000116171	6342	SCP2	sterol carrier protein 2	1	true	Known mitochondrial	true	false
+ENSG00000073578	6389	SDHA	succinate dehydrogenase complex flavoprotein subunit A	5	true	Known mitochondrial	true	true
+ENSG00000205138	644096	SDHAF1	succinate dehydrogenase complex assembly factor 1	19	true	Known mitochondrial	true	true
+ENSG00000167985	54949	SDHAF2	succinate dehydrogenase complex assembly factor 2	11	true	Known mitochondrial	true	true
+ENSG00000196636	57001	SDHAF3	succinate dehydrogenase complex assembly factor 3	7	true	Known mitochondrial	true	true
+ENSG00000154079	135154	SDHAF4	succinate dehydrogenase complex assembly factor 4	6	true	Known mitochondrial	true	true
+ENSG00000117118	6390	SDHB	succinate dehydrogenase complex iron sulfur subunit B	1	true	Known mitochondrial	true	true
+ENSG00000143252	6391	SDHC	succinate dehydrogenase complex subunit C	1	true	Known mitochondrial	true	false
+ENSG00000204370	6392	SDHD	succinate dehydrogenase complex subunit D	11	true	Known mitochondrial	true	false
+ENSG00000100445	56948	SDR39U1	short chain dehydrogenase/reductase family 39U member 1	14	true	Predicted mitochondrial	false	false
+ENSG00000139410	113675	SDSL	serine dehydratase like	12	true	Known NOT mitochondrial	false	false
+ENSG00000187742	79048	SECISBP2	SECIS binding protein 2	9	true	Known mitochondrial	true	false
+ENSG00000073169	83642	SELENOO	selenoprotein O	22	true	Predicted mitochondrial	true	false
+ENSG00000108387	5414	SEPT4	septin 4	17	true	Known mitochondrial	true	false
+ENSG00000122335	84947	SERAC1	serine active site containing 1	6	true	Known mitochondrial	true	false
+ENSG00000183569	253190	SERHL2	serine hydrolase like 2	22	true	Predicted mitochondrial	false	false
+ENSG00000155542	133383	SETD9	SET domain containing 9	5	true	Known mitochondrial	false	false
+ENSG00000164466	94081	SFXN1	sideroflexin 1	5	true	Known mitochondrial	true	true
+ENSG00000156398	118980	SFXN2	sideroflexin 2	10	true	Predicted mitochondrial	true	true
+ENSG00000107819	81855	SFXN3	sideroflexin 3	10	true	Known mitochondrial	true	true
+ENSG00000183605	119559	SFXN4	sideroflexin 4	10	true	Known mitochondrial	true	false
+ENSG00000144040	94097	SFXN5	sideroflexin 5	2	true	Known mitochondrial	true	true
+ENSG00000176974	6470	SHMT1	serine hydroxymethyltransferase 1	17	true	Predicted NOT mitochondrial	false	false
+ENSG00000182199	6472	SHMT2	serine hydroxymethyltransferase 2	12	true	Known mitochondrial	true	true
+ENSG00000142082	23410	SIRT3	sirtuin 3	11	true	Known mitochondrial	true	false
+ENSG00000089163	23409	SIRT4	sirtuin 4	12	true	Known mitochondrial	true	false
+ENSG00000124523	23408	SIRT5	sirtuin 5	6	true	Known mitochondrial	true	true
+ENSG00000155380		SLC16A1	solute carrier family 16 member 1	1	true	Predicted NOT mitochondrial	false	false
+ENSG00000174326	162515	SLC16A11	solute carrier family 16 member 11	17	true	Predicted NOT mitochondrial	false	false
+ENSG00000118596	9194	SLC16A7	solute carrier family 16 member 7	12	true	Predicted NOT mitochondrial	false	false
+ENSG00000197208	6583	SLC22A4	solute carrier family 22 member 4	5	true	Known mitochondrial	true	true
+ENSG00000100075	6576	SLC25A1	solute carrier family 25 member 1	22	true	Known mitochondrial	true	false
+ENSG00000183048	1468	SLC25A10	solute carrier family 25 member 10	17	true	Known mitochondrial	true	true
+ENSG00000108528	8402	SLC25A11	solute carrier family 25 member 11	17	true	Known mitochondrial	true	false
+ENSG00000115840	8604	SLC25A12	solute carrier family 25 member 12	2	true	Known mitochondrial	true	false
+ENSG00000004864	10165	SLC25A13	solute carrier family 25 member 13	7	true	Known mitochondrial	true	true
+ENSG00000102078	9016	SLC25A14	solute carrier family 25 member 14	X	true	Known mitochondrial	true	true
+ENSG00000102743	10166	SLC25A15	solute carrier family 25 member 15	13	true	Known mitochondrial	true	false
+ENSG00000122912	8034	SLC25A16	solute carrier family 25 member 16	10	true	Known mitochondrial	true	true
+ENSG00000100372	10478	SLC25A17	solute carrier family 25 member 17	22	true	Predicted NOT mitochondrial	true	false
+ENSG00000182902	83733	SLC25A18	solute carrier family 25 member 18	22	true	Known mitochondrial	true	false
+ENSG00000125454	60386	SLC25A19	solute carrier family 25 member 19	17	true	Known mitochondrial	true	false
+ENSG00000178537	788	SLC25A20	solute carrier family 25 member 20	3	true	Known mitochondrial	true	true
+ENSG00000183032	89874	SLC25A21	solute carrier family 25 member 21	14	true	Known mitochondrial	true	false
+ENSG00000177542	79751	SLC25A22	solute carrier family 25 member 22	11	true	Known mitochondrial	true	true
+ENSG00000125648	79085	SLC25A23	solute carrier family 25 member 23	19	true	Known mitochondrial	true	true
+ENSG00000085491		SLC25A24	solute carrier family 25 member 24	1	true	Known mitochondrial	true	true
+ENSG00000148339	114789	SLC25A25	solute carrier family 25 member 25	9	true	Known mitochondrial	true	true
+ENSG00000144741		SLC25A26	solute carrier family 25 member 26	3	true	Known mitochondrial	true	true
+ENSG00000153291	9481	SLC25A27	solute carrier family 25 member 27	6	true	Known mitochondrial	true	true
+ENSG00000155287	81894	SLC25A28	solute carrier family 25 member 28	10	true	Known mitochondrial	true	false
+ENSG00000197119	123096	SLC25A29	solute carrier family 25 member 29	14	true	Known mitochondrial	true	false
+ENSG00000075415	5250	SLC25A3	solute carrier family 25 member 3	12	true	Known mitochondrial	true	true
+ENSG00000174032	253512	SLC25A30	solute carrier family 25 member 30	13	true	Known mitochondrial	true	false
+ENSG00000151475	83447	SLC25A31	solute carrier family 25 member 31	4	true	Known mitochondrial	true	true
+ENSG00000164933	81034	SLC25A32	solute carrier family 25 member 32	8	true	Known mitochondrial	true	true
+ENSG00000171612	84275	SLC25A33	solute carrier family 25 member 33	1	true	Known mitochondrial	true	false
+ENSG00000162461	284723	SLC25A34	solute carrier family 25 member 34	1	true	Known mitochondrial	true	true
+ENSG00000125434	399512	SLC25A35	solute carrier family 25 member 35	17	true	Known mitochondrial	true	true
+ENSG00000114120	55186	SLC25A36	solute carrier family 25 member 36	3	true	Known mitochondrial	true	true
+ENSG00000147454	51312	SLC25A37	solute carrier family 25 member 37	8	true	Known mitochondrial	true	false
+ENSG00000144659	54977	SLC25A38	solute carrier family 25 member 38	3	true	Known mitochondrial	true	false
+ENSG00000013306	51629	SLC25A39	solute carrier family 25 member 39	17	true	Known mitochondrial	true	false
+ENSG00000151729	291	SLC25A4	solute carrier family 25 member 4	4	true	Known mitochondrial	true	true
+ENSG00000075303	55972	SLC25A40	solute carrier family 25 member 40	7	true	Known mitochondrial	true	false
+ENSG00000181240	284427	SLC25A41	solute carrier family 25 member 41	19	true	Known mitochondrial	true	false
+ENSG00000181035	284439	SLC25A42	solute carrier family 25 member 42	19	true	Known mitochondrial	true	true
+ENSG00000077713	203427	SLC25A43	solute carrier family 25 member 43	X	true	Known mitochondrial	true	false
+ENSG00000160785	9673	SLC25A44	solute carrier family 25 member 44	1	true	Known mitochondrial	true	true
+ENSG00000162241	283130	SLC25A45	solute carrier family 25 member 45	11	true	Known mitochondrial	true	false
+ENSG00000164209	91137	SLC25A46	solute carrier family 25 member 46	5	true	Known mitochondrial	true	true
+ENSG00000140107	283600	SLC25A47	solute carrier family 25 member 47	14	true	Predicted mitochondrial	true	false
+ENSG00000145832	153328	SLC25A48	solute carrier family 25 member 48	5	true	Known mitochondrial	true	false
+ENSG00000005022	292	SLC25A5	solute carrier family 25 member 5	X	true	Known mitochondrial	true	true
+ENSG00000122696	92014	SLC25A51	solute carrier family 25 member 51	9	true	Known mitochondrial	true	true
+ENSG00000269743	401612	SLC25A53	solute carrier family 25 member 53	X	true	Known mitochondrial	true	false
+ENSG00000169100	293	SLC25A6	solute carrier family 25 member 6	X	true	Known mitochondrial	true	true
+ENSG00000152683	55676	SLC30A6	solute carrier family 30 member 6	2	true	Predicted NOT mitochondrial	false	false
+ENSG00000014824	10463	SLC30A9	solute carrier family 30 member 9	4	true	Known mitochondrial	false	false
+ENSG00000137700		SLC37A4	solute carrier family 37 member 4	11	true	Predicted mitochondrial	false	true
+ENSG00000119705	81892	SLIRP	SRA stem-loop interacting RNA binding protein	14	true	Known mitochondrial	true	true
+ENSG00000183172		SMDT1	single-pass membrane protein with aspartate rich tail 1	22	true	Known mitochondrial	true	true
+ENSG00000099940	9342	SNAP29	synaptosome associated protein 29	22	true	Known mitochondrial	false	false
+ENSG00000197157	27044	SND1	staphylococcal nuclease and tudor domain containing 1	7	true	Predicted mitochondrial	false	false
+ENSG00000142168	6647	SOD1	superoxide dismutase 1	21	true	Predicted mitochondrial	true	false
+ENSG00000112096	6648	SOD2	superoxide dismutase 2	6	true	Known mitochondrial	true	false
+ENSG00000166118	219938	SPATA19	spermatogenesis associated 19	11	true	Known mitochondrial	true	false
+ENSG00000006282	64847	SPATA20	spermatogenesis associated 20	17	true	Known mitochondrial	false	false
+ENSG00000197912	6687	SPG7	SPG7, paraplegin matrix AAA peptidase subunit	16	true	Known mitochondrial	true	false
+ENSG00000116096	6697	SPR	sepiapterin reductase	2	true	Predicted mitochondrial	false	false
+ENSG00000176422	283377	SPRYD4	SPRY domain containing 4	12	true	Known mitochondrial	false	false
+ENSG00000100596	9517	SPTLC2	serine palmitoyltransferase long chain base subunit 2	14	true	Predicted mitochondrial	false	true
+ENSG00000137767	58472	SQOR	sulfide quinone oxidoreductase	15	true	Known mitochondrial	true	true
+ENSG00000111786	8683	SRSF9	serine and arginine rich splicing factor 9	12	true	Predicted NOT mitochondrial	false	false
+ENSG00000106028		SSBP1	single stranded DNA binding protein 1	7	true	Known mitochondrial	true	true
+ENSG00000147465	6770	STAR	steroidogenic acute regulatory protein	8	true	Known mitochondrial	true	false
+ENSG00000084090	56910	STARD7	StAR related lipid transfer domain containing 7	2	true	Known mitochondrial	true	true
+ENSG00000148175	2040	STOM	stomatin	9	true	Predicted NOT mitochondrial	true	false
+ENSG00000067221	9399	STOML1	stomatin like 1	15	true	Predicted NOT mitochondrial	false	false
+ENSG00000165283	30968	STOML2	stomatin like 2	9	true	Known mitochondrial	true	false
+ENSG00000136874	55014	STX17	syntaxin 17	9	true	Known mitochondrial	true	false
+ENSG00000136143	8803	SUCLA2	succinate-CoA ligase ADP-forming beta subunit	13	true	Known mitochondrial	true	true
+ENSG00000163541	8802	SUCLG1	succinate-CoA ligase alpha subunit	2	true	Known mitochondrial	true	true
+ENSG00000172340	8801	SUCLG2	succinate-CoA ligase GDP-forming beta subunit	3	true	Known mitochondrial	true	true
+ENSG00000175600	79783	SUGCT	succinyl-CoA:glutarate-CoA transferase	7	true	Known mitochondrial	true	false
+ENSG00000139531	6821	SUOX	sulfite oxidase	12	true	Known mitochondrial	true	false
+ENSG00000156502	6832	SUPV3L1	Suv3 like RNA helicase	10	true	Known mitochondrial	true	true
+ENSG00000148290		SURF1	SURF1, cytochrome c oxidase assembly factor	9	true	Known mitochondrial	true	false
+ENSG00000213463	55333	SYNJ2BP	synaptojanin 2 binding protein	14	true	Known mitochondrial	true	true
+ENSG00000136463	51204	TACO1	translational activator of cytochrome c oxidase I	17	true	Known mitochondrial	true	true
+ENSG00000144559	132001	TAMM41	TAM41 mitochondrial translocator assembly and maintenance homolog	3	true	Known mitochondrial	true	false
+ENSG00000113407	6897	TARS	threonyl-tRNA synthetase	5	true	Predicted NOT mitochondrial	false	false
+ENSG00000143374	80222	TARS2	threonyl-tRNA synthetase 2, mitochondrial	1	true	Known mitochondrial	true	false
+ENSG00000136270	9238	TBRG4	transforming growth factor beta regulator 4	7	true	Known mitochondrial	true	true
+ENSG00000179152	285343	TCAIM	T cell activation inhibitor, mitochondrial	3	true	Known mitochondrial	true	false
+ENSG00000139437	84260	TCHP	trichoplein keratin filament binding	12	true	Known mitochondrial	true	false
+ENSG00000110719	10312	TCIRG1	T cell immune regulator 1, ATPase H+ transporting V0 subunit a3	11	true	Predicted mitochondrial	false	true
+ENSG00000182134	11022	TDRKH	tudor and KH domain containing	1	true	Known mitochondrial	true	false
+ENSG00000172171	79736	TEFM	transcription elongation factor, mitochondrial	17	true	Known mitochondrial	true	true
+ENSG00000108064	7019	TFAM	transcription factor A, mitochondrial	10	true	Known mitochondrial	true	true
+ENSG00000029639	51106	TFB1M	transcription factor B1, mitochondrial	6	true	Known mitochondrial	true	false
+ENSG00000162851	64216	TFB2M	transcription factor B2, mitochondrial	1	true	Known mitochondrial	true	true
+ENSG00000159445	117145	THEM4	thioesterase superfamily member 4	1	true	Known mitochondrial	true	false
+ENSG00000113272	54974	THG1L	tRNA-histidine guanylyltransferase 1 like	5	true	Known mitochondrial	true	false
+ENSG00000185875	79896	THNSL1	threonine synthase like 1	10	true	Known mitochondrial	false	true
+ENSG00000134809	26519	TIMM10	translocase of inner mitochondrial membrane 10	11	true	Known mitochondrial	true	true
+ENSG00000132286	26515	TIMM10B	translocase of inner mitochondrial membrane 10B	11	true	Known mitochondrial	true	false
+ENSG00000099800	26517	TIMM13	translocase of inner mitochondrial membrane 13	19	true	Known mitochondrial	true	true
+ENSG00000134375	10440	TIMM17A	translocase of inner mitochondrial membrane 17A	1	true	Known mitochondrial	true	true
+ENSG00000126768	10245	TIMM17B	translocase of inner mitochondrial membrane 17B	X	true	Known mitochondrial	true	true
+ENSG00000075336	29090	TIMM21	translocase of inner mitochondrial membrane 21	18	true	Known mitochondrial	true	false
+ENSG00000177370		TIMM22	translocase of inner mitochondrial membrane 22	17	true	Known mitochondrial	true	false
+ENSG00000265354	100287932	TIMM23	translocase of inner mitochondrial membrane 23	10	true	Known mitochondrial	true	true
+ENSG00000142444	90580	TIMM29	translocase of inner mitochondrial membrane 29	19	true	Predicted mitochondrial	true	true
+ENSG00000104980	10469	TIMM44	translocase of inner mitochondrial membrane 44	19	true	Known mitochondrial	true	true
+ENSG00000105197	92609	TIMM50	translocase of inner mitochondrial membrane 50	19	true	Known mitochondrial	true	true
+ENSG00000126953	1678	TIMM8A	translocase of inner mitochondrial membrane 8A	X	true	Known mitochondrial	true	true
+ENSG00000150779	26521	TIMM8B	translocase of inner mitochondrial membrane 8 homolog B	11	true	Known mitochondrial	true	false
+ENSG00000100575	26520	TIMM9	translocase of inner mitochondrial membrane 9	14	true	Known mitochondrial	true	true
+ENSG00000113845	51300	TIMMDC1	translocase of inner mitochondrial membrane domain containing 1	3	true	Known mitochondrial	true	true
+ENSG00000166548	7084	TK2	thymidine kinase 2, mitochondrial	16	true	Known mitochondrial	true	false
+ENSG00000163931	7086	TKT	transketolase	3	true	Known NOT mitochondrial	false	false
+ENSG00000155957	51643	TMBIM4	transmembrane BAX inhibitor motif containing 4	12	true	Predicted NOT mitochondrial	false	false
+ENSG00000178307	8834	TMEM11	transmembrane protein 11	17	true	Known mitochondrial	true	true
+ENSG00000171202	84233	TMEM126A	transmembrane protein 126A	11	true	Known mitochondrial	true	false
+ENSG00000171204	55863	TMEM126B	transmembrane protein 126B	11	true	Known mitochondrial	true	true
+ENSG00000161558	55260	TMEM143	transmembrane protein 143	19	true	Predicted mitochondrial	true	false
+ENSG00000111843	51522	TMEM14C	transmembrane protein 14C	6	true	Known mitochondrial	true	false
+ENSG00000144120	80775	TMEM177	transmembrane protein 177	2	true	Known mitochondrial	true	false
+ENSG00000184857	25880	TMEM186	transmembrane protein 186	16	true	Predicted mitochondrial	true	false
+ENSG00000105518	374882	TMEM205	transmembrane protein 205	19	true	Predicted NOT mitochondrial	false	false
+ENSG00000164983	157378	TMEM65	transmembrane protein 65	8	true	Known mitochondrial	true	false
+ENSG00000175606	54968	TMEM70	transmembrane protein 70	8	true	Known mitochondrial	true	true
+ENSG00000185973	55217	TMLHE	trimethyllysine hydroxylase, epsilon	X	true	Known mitochondrial	true	true
+ENSG00000173726	9804	TOMM20	translocase of outer mitochondrial membrane 20	1	true	Known mitochondrial	true	true
+ENSG00000100216	56993	TOMM22	translocase of outer mitochondrial membrane 22	22	true	Known mitochondrial	true	true
+ENSG00000025772	10953	TOMM34	translocase of outer mitochondrial membrane 34	20	true	Known mitochondrial	true	false
+ENSG00000130204	10452	TOMM40	translocase of outer mitochondrial membrane 40	19	true	Known mitochondrial	true	true
+ENSG00000158882	84134	TOMM40L	translocase of outer mitochondrial membrane 40 like	1	true	Known mitochondrial	true	false
+ENSG00000175768	401505	TOMM5	translocase of outer mitochondrial membrane 5	9	true	Known mitochondrial	true	true
+ENSG00000196683	54543	TOMM7	translocase of outer mitochondrial membrane 7	7	true	Known mitochondrial	true	false
+ENSG00000154174	9868	TOMM70	translocase of outer mitochondrial membrane 70	3	true	Known mitochondrial	true	true
+ENSG00000184428	116447	TOP1MT	DNA topoisomerase I mitochondrial	8	true	Known mitochondrial	true	true
+ENSG00000177302		TOP3A	DNA topoisomerase III alpha	17	true	Known mitochondrial	false	false
+ENSG00000111669	7167	TPI1	triosephosphate isomerase 1	12	true	Predicted mitochondrial	false	false
+ENSG00000126602	10131	TRAP1	TNF receptor associated protein 1	16	true	Known mitochondrial	true	true
+ENSG00000170855	51499	TRIAP1	TP53 regulated inhibitor of apoptosis 1	12	true	Known mitochondrial	true	true
+ENSG00000043514	54802	TRIT1	tRNA isopentenyltransferase 1	1	true	Known mitochondrial	true	false
+ENSG00000104907	55621	TRMT1	tRNA methyltransferase 1	19	true	Predicted NOT mitochondrial	true	false
+ENSG00000174173	54931	TRMT10C	tRNA methyltransferase 10C, mitochondrial RNase P subunit	3	true	Known mitochondrial	true	true
+ENSG00000066651	60487	TRMT11	tRNA methyltransferase 11 homolog	6	true	Known mitochondrial	false	false
+ENSG00000188917	79979	TRMT2B	tRNA methyltransferase 2 homolog B	X	true	Known mitochondrial	false	false
+ENSG00000171103	55006	TRMT61B	tRNA methyltransferase 61B	2	true	Known mitochondrial	true	false
+ENSG00000100416	55687	TRMU	tRNA 5-methylaminomethyl-2-thiouridylate methyltransferase	22	true	Known mitochondrial	true	true
+ENSG00000072756	51095	TRNT1	tRNA nucleotidyl transferase 1	3	true	Known mitochondrial	true	true
+ENSG00000167112	26995	TRUB2	TruB pseudouridine synthase family member 2	9	true	Known mitochondrial	true	false
+ENSG00000123297	10102	TSFM	Ts translation elongation factor, mitochondrial	12	true	Known mitochondrial	true	true
+ENSG00000100300	706	TSPO	translocator protein	22	true	Known mitochondrial	true	true
+ENSG00000128311	7263	TST	thiosulfate sulfurtransferase	22	true	Known mitochondrial	true	true
+ENSG00000215845	100131187	TSTD1	thiosulfate sulfurtransferase like domain containing 1	1	true	Predicted mitochondrial	false	false
+ENSG00000228439	100130890	TSTD3	thiosulfate sulfurtransferase (rhodanese)-like domain containing 3	6	true		false	false
+ENSG00000011295	54902	TTC19	tetratricopeptide repeat domain 19	17	true	Known mitochondrial	true	true
+ENSG00000178952	7284	TUFM	Tu translation elongation factor, mitochondrial	16	true	Known mitochondrial	true	true
+ENSG00000107815	56652	TWNK	twinkle mtDNA helicase	10	true	Known mitochondrial	true	false
+ENSG00000100348	25828	TXN2	thioredoxin 2	22	true	Known mitochondrial	true	true
+ENSG00000117862	51060	TXNDC12	thioredoxin domain containing 12	1	true	Known mitochondrial	false	false
+ENSG00000198431	7296	TXNRD1	thioredoxin reductase 1	12	true	Predicted NOT mitochondrial	true	false
+ENSG00000184470	10587	TXNRD2	thioredoxin reductase 2	22	true	Known mitochondrial	true	true
+ENSG00000156521	219743	TYSND1	trypsin domain containing 1	10	true	Probable contaminant	false	false
+ENSG00000109424	7350	UCP1	uncoupling protein 1	4	true	Known mitochondrial	true	false
+ENSG00000175567	7351	UCP2	uncoupling protein 2	11	true	Known mitochondrial	true	true
+ENSG00000175564	7352	UCP3	uncoupling protein 3	11	true	Known mitochondrial	true	false
+ENSG00000076248	7374	UNG	uracil DNA glycosylase	12	true	Known mitochondrial	true	false
+ENSG00000101019	55245	UQCC1	ubiquinol-cytochrome c reductase complex assembly factor 1	20	true	Known mitochondrial	true	false
+ENSG00000137288	84300	UQCC2	ubiquinol-cytochrome c reductase complex assembly factor 2	6	true	Known mitochondrial	true	true
+ENSG00000184076	29796	UQCR10	ubiquinol-cytochrome c reductase, complex III subunit X	22	true	Known mitochondrial	true	false
+ENSG00000127540	10975	UQCR11	ubiquinol-cytochrome c reductase, complex III subunit XI	19	true	Known mitochondrial	true	false
+ENSG00000156467	7381	UQCRB	ubiquinol-cytochrome c reductase binding protein	8	true	Known mitochondrial	true	false
+ENSG00000010256	7384	UQCRC1	ubiquinol-cytochrome c reductase core protein 1	3	true	Known mitochondrial	true	true
+ENSG00000140740		UQCRC2	ubiquinol-cytochrome c reductase core protein 2	16	true	Known mitochondrial	true	true
+ENSG00000169021	7386	UQCRFS1	ubiquinol-cytochrome c reductase, Rieske iron-sulfur polypeptide 1	19	true	Known mitochondrial	true	true
+ENSG00000173660	7388	UQCRH	ubiquinol-cytochrome c reductase hinge protein	1	true	Known mitochondrial	true	false
+ENSG00000164405	27089	UQCRQ	ubiquinol-cytochrome c reductase complex III subunit VII	5	true	Known mitochondrial	true	true
+ENSG00000137411		VARS2	valyl-tRNA synthetase 2, mitochondrial	6	true	Known mitochondrial	true	true
+ENSG00000073905		VDAC1P1	voltage dependent anion channel 1 pseudogene 1	X	true		false	false
+ENSG00000165637	7417	VDAC2	voltage dependent anion channel 2	10	true	Known mitochondrial	true	true
+ENSG00000078668	7419	VDAC3	voltage dependent anion channel 3	8	true	Known mitochondrial	true	true
+ENSG00000102763	23078	VWA8	von Willebrand factor A domain containing 8	13	true	Known mitochondrial	true	false
+ENSG00000116874	10352	WARS2	tryptophanyl tRNA synthetase 2, mitochondrial	1	true	Known mitochondrial	true	true
+ENSG00000167716		WDR81	WD repeat domain 81	17	true	Known mitochondrial	true	false
+ENSG00000196236	63929	XPNPEP3	X-prolyl aminopeptidase 3	22	true	Known mitochondrial	true	false
+ENSG00000139131	51067	YARS2	tyrosyl-tRNA synthetase 2	12	true	Known mitochondrial	true	true
+ENSG00000182362	54059	YBEY	ybeY metallopeptidase (putative)	21	true	Known mitochondrial	false	false
+ENSG00000136758	10730	YME1L1	YME1 like 1 ATPase	10	true	Known mitochondrial	true	true
+ENSG00000180011	284273	ZADH2	zinc binding alcohol dehydrogenase domain containing 2	18	true	Predicted mitochondrial	false	false
